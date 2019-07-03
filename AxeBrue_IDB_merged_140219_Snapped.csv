@@ -1,0 +1,437 @@
+OBJECTID_12,OBJECTID,ObjectID_1,Water_leve,Grid_ref_,Owned_by,Operated_b,Watercours,Descriptio,X,Y,Lat,Long_,Source,Enabled,NEAR_FID,NEAR_DIST,NEAR_X,NEAR_Y,Dimensions,FID_1,Structure,structure_,Count_,AncillaryR,AncillaryRole,SnapDist,ForcedMove,SnapQual,SrchName
+1,1,1, , ,EA,EA,River Brue,"Pair of lifting sluices
+with tilting crests",333230,146210,0,51.211174,South Drain,1,59,31.96018791,334332.4673,147840.252,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+2,2,2,Highbridge Clyse, ,Private,Private,River Brue,Two vertical lifting gates and two tidal,331350,147240,0,51.220211,South Drain,1,371,157.6444455,330720.7467,146633.6801,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+3,3,3,Gold Corner Pumping Station, ,EA,EA,South Drain,Pumping Station,336720,143040,0,51.183071,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+4,4,4,Shaking Drove Tilting Weir, ,EA,EA,South Drain,Tilting weir and a flap,336800,143170,0,51.184249,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+5,5,5,Huntspill Sluice, ,EA,EA,Huntspill River,"Two pairs of vertical
+lifting gates",329260,145730,0,51.20638,South Drain,1,371,157.6444455,330720.7467,146633.6801,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+6,6,6,Gold Corner Sluice (including Gold Corner Penstocks), ,EA,EA,Huntspill River/ Cripps River,Vertical lifting gate and two penstocks (Culverts and penstocks),336700,143190,0,51.184418,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+7,7,7,Cripps River Sluice (redundant), ,EA, EA,Cripps River,Vertical lifting gate,336080,145040,0,51.200982,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+8,8,8,Withy Drove Pumping Station, ,EA,EA,Huntspill River,Pumping Station,332680,144160,0,51.192679,South Drain,1,21,107.2355916,332257.6822,143344.9764,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+9,9,9,Sloway Lane Pumping Station, ,EA,EA,Huntspill River,Pumping Station,330230,145130,0,51.201105,South Drain,1,371,157.6444455,330720.7467,146633.6801,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+10,10,10,West Burtle Rhyne Sluice, ,EA,EA,South Drain Back Ditch,Penstock,337440,142990,0,51.182701,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+11,11,11,Chilton Railway Sluice (Edington Railway Sluice), ,No data,No data,South Drain Back Ditch,Vertical lift sluice gate,338540,142760,0,51.180753,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+12,12,12,Decoy Rhyne Sluice, ,EA,EA,Decoy Rhyne,Vertical lift sluice gate,336950,143000,0,51.182737,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+13,13,13,Decoy Rhyne Tilting Weir, ,Private,Private,Decoy Rhyne,Tilting weir,336950,142930,0,51.182108,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+14,14,14,Cossington Manor Rhyne, ,EA,EA,South Drain Back Ditch,Tilting weir,337440,142950,0,51.182342,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+15,15,15,Chilton Cottage Sluice, ,EA,EA,South Drain Back Ditch,Vertical lift sluice gate,338420,142750,0,51.18065,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+16,16,16,Burtle Rhyne Sluice, ,EA,EA,South Drain Back Ditch,Vertical lift sluice gate,338690,142730,0,51.180499,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+17,17,17,Chilton Landshire Rhyne Sluice, ,EA,EA,South Drain Back Ditch,Tilting weir,338680,142700,0,51.180228,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+18,18,18,Catcott Burtle Sluice (Catcott Burtle Tilting Weir), ,EA,EA,South Drain Back Ditch,Tilting weir gate with stop log grooves,340000,142420,0,51.177851,South Drain,1,286,332.6524453,341137.9382,141601.4877,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+19,19,19,Catcott Heath Sluice, ,EA,EA,South Drain Back Ditch,Vertical lift gate,340030,142320,0,51.176955,South Drain,1,286,332.6524453,341137.9382,141601.4877,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+20,20,20,Long Moor Drove Sluice, ,EA,EA,South Drain Back Ditch,Penstock sluice gate with flap,335960,143300,0,51.185324,South Drain,1,380,185.5158096,334977.4145,143186.2303,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+21,21,21,Gold Corner Drove Sluice, ,No data,No data,Huntspill Back Ditch,Penning boards,335990,143320,0,51.185507,South Drain,1,380,185.5158096,334977.4145,143186.2303,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+22,22,22,Gold Corner South Sluice, ,EA,EA,Huntspill Back Ditch,Sluice valve,336680,143020,0,51.182887,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+23,23,23,Whitchey Drove West Sluice, ,EA,EA,Huntspill Back Ditch,Removed sluice and concrete headwall,336690,143000,0,51.182708,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+24,24,24,Whitchey Drove East Sluice, ,EA,EA,Huntspill Back Ditch,Sluice gate,336720,142980,0,51.182532,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+25,25,25,Pyde Drove Sluice, ,EA,EA,Huntspill Back Ditch,Penstock,335640,143260,0,51.184929,South Drain,1,380,185.5158096,334977.4145,143186.2303,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+26,26,26,Quaking Bridge Sluice, ,EA,EA,Huntspill Back Ditch,Overtopped Sluice,334870,143470,0,51.186729,South Drain,1,380,185.5158096,334977.4145,143186.2303,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+27,27,27,Cold Harbour Bridge Weir, ,EA,EA,River Brue,Fixed weir,347980,140320,0,51.159753,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+28,28,28,Pons Perilis Bridge Weir, ,EA,EA,River Brue,Stone / boulder weir,348700,137770,0,51.136891,South Drain,1,393,58.22701065,346361.5851,137168.4605,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+29,29,29,Clyse Hole Weir/Gauging Station, ,EA,EA,River Brue,Fixed weir,349410,137750,0,51.136774,South Drain,1,315,110.6515653,350556.0007,136164.7715,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+30,30,30,Bankers Hatch, ,EA,EA,River Brue,Penstock,349380,137760,0,51.136861,South Drain,1,315,110.6515653,350556.0007,136164.7715,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+31,31,31,Throttle Culvert, ,EA,EA,River Brue,Culvert,349340,137770,0,51.136948,South Drain,1,315,110.6515653,350556.0007,136164.7715,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+32,32,32,Cold Harbour Sluice, ,EA,EA,Glastonbury Millstream,Timer penstock,348060,140330,0,51.15985,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+33,33,33,North Load Penning Bay (North Load Penning Boards), ,EA,EA,Glastonbury Millstream,Penning Bays,349320,139580,0,51.15322,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+34,34,34,Actis Tunnel, ,EA,EA,EA South Drain,Culvert,349230,137730,0,51.136578,South Drain,1,315,110.6515653,350556.0007,136164.7715,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+35,35,35,Aqueduct Sluice (Glastonbury Canal Aqueduct Sluice), ,EA,EA,Glastonbury Canal,Culvert,348000,139240,0,51.150044,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+36,36,36,New Close Balancing Pond, ,County Council,Private,Glastonbury Millstream,Timber penstock,349270,139270,0,51.150428,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+37,37,37,Chisletts Weir, ,Private,Private,Glastonbury Millstream,Penning Bays,349100,138800,0,51.146187,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+38,38,38,Baileys Sluices, ,Private,Private,Glastonbury Millstream,Culvert,348720,138420,0,51.142737,South Drain,1,121,134.4284999,348414.1111,139760.2778,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+39,39,39,A39 Culvert, ,Highways,Highways,South Drain,Fixed weir,348620,137490,0,51.134366,South Drain,1,315,110.6515653,350556.0007,136164.7715,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+40,40,40,Manor Farm Weir, ,Riparian Owner,Riparian Owner,River Brue,Fixed weir,345490,141840,0,51.173187,South Drain,1,1136,71.31906066,345830.1158,142025.4692,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+41,41,41,Turnbridge Penning Bay, ,Riparian Owner,Riparian Owner,River Brue,Redundant,346550,141260,0,51.168073,South Drain,1,1136,71.31906066,345830.1158,142025.4692,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+42,42,42,River Farm Weir, ,Riparian Owner,Riparian Owner,River Brue,Fixed weir,345880,141760,0,51.172505,South Drain,1,1136,71.31906066,345830.1158,142025.4692,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+43,43,43,H14, ,LB IDB,LB IDB,Reeds & Chilpitts Rhyne,Penstock,336090,142100,0,51.17455,South Drain,1,380,185.5158096,334977.4145,143186.2303,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+44,44,44,H24, ,LB IDB,LB IDB,Cripps River back ditch,Penstock,336650,143220,0,51.184682,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+45,45,45,H26, ,LB IDB,LB IDB,Private ditch,Penstock,336300,144610,0,51.19714,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+46,46,46,H31, ,LB IDB,LB IDB,Private ditch,Steel trench sheet bay,336100,144900,0,51.199725,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+47,47,47,C01, ,LB IDB,LB IDB,Nidon Rhyne,Stop-logs,339180,140620,0,51.161581,South Drain,1,286,332.6524453,341137.9382,141601.4877,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+48,48,48,C03, ,LB IDB,LB IDB,Nidon Brook,Stop-logs,337800,140910,0,51.16404,South Drain,1,186,36.48691915,337437.794,143744.8228,,,,,,,,0.02,N,"Nearest Polyline, no name check",n/a
+49,49,49,C04, ,LB IDB,LB IDB,Nidon Rhyne,Vertical railway sleepers,340740,139990,0,51.156081,South Drain,1,286,332.6524453,341137.9382,141601.4877,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+50,50,50,C05, ,LB IDB,LB IDB,Black Ditch,Stop-logs,340750,139990,0,51.156082,South Drain,1,286,332.6524453,341137.9382,141601.4877,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+51,51,51,Whitehouse Drove, ,UB IDB,UB IDB,Heath Rhyne (Lower),Penning Boards,341650,143310,0,51.186024,South Drain,1,286,332.6524453,341137.9382,141601.4877,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+52,52,52,Sharpham Road Feed Valve, ,Private,Private,Sharpham Road Rhyne,Valved feed pipe,346910,138700,0,51.145089,South Drain,1,393,58.22701065,346361.5851,137168.4605,,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+53,53,1,North Drain Pumping Station, ,EA,EA,North Drain,Pumping Station,339900,144850,51.199689,-2.8615569,North Drain,1,1126,5.326880294,339902.3492,144845.2191,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+54,54,2,North Drain Outfall, ,EA,EA,North Drain,Tidal Flap plus 3 tilting weirs,339920,144820,51.199421,-2.8612656,North Drain,1,1126,30.4184069,339906.5851,144847.3005,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+55,55,3,North Drain Inlet, ,EA,EA,North Drain,Fixed weir and penning boards,349290,143960,51.192599,-2.7270501,North Drain,1,990,1.121071666,349288.8889,143959.8508,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+56,56,4,Hurn Weir, ,EA,EA,River Sheppey,Penning boards,349360,143770,51.190897,-2.7260216,North Drain,1,990,3.056799558,349362.705,143771.4237,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+57,57,5,Lewis Drove Sluice/TW, ,EA,EA,North Drain,Tilting weir,346790,144670,51.198755,-2.7629276,North Drain,1,208,2.782879543,346792.6604,144669.1835,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+58,58,6,Panborough Relief Channel Weir, ,EA,EA,Panborough Relief Channel,Fixed weir,346920,145420,51.20551,-2.7611784,North Drain,1,370,165.285692,346854.7392,145268.1435,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+59,59,7,"Panborough Boards
+(Blakeway Boards)", ,EA,EA,Panborough Drain,Stoplogs,344140,145280,51.203986,-2.8009459,North Drain,1,304,0.254458636,344139.7501,145280.0482,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+60,60,8,Hackness Sluice, ,EA,EA,River Brue,Large penstock,333230,146210,51.211174,-2.9572606,North Drain,1,1080,2.841718426,333230.9124,146212.6913,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+61,61,9,Highbeech Boards (Lower Godney Boards), ,EA,EA,River Sheppey,Penning boards,347130,142690,51.180984,-2.7577699,North Drain,1,990,4.77062019,347126.5581,142693.3034,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+62,62,10,Fenny Castle Gauging Station, ,EA,EA,River Sheppey,Gauging station ?,349830,143850,51.191658,-2.7193078,North Drain,1,991,5.343696723,349832.869,143854.5082,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+63,63,11,Ham Boards, ,EA,EA / Farmer,Decoy Rhyne,weir.,346960,142820,51.182137,-2.760221,North Drain,1,1129,2.988026455,346961.8703,142822.3303,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+64,64,12,James Boards, ,EA,EA / Farmer,James Wear River,Penning boards,345510,142480,51.178944,-2.7809123,North Drain,1,981,5.506475895,345507.9845,142485.1244,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+65,65,13,Tealham RWLA S1, ,EA,EA,Non Main River,Penning boards,340830,145040,51.201494,-2.8482793,North Drain,1,307,4.032508649,340825.9866,145039.6082,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+66,66,14,Tealham RWLA S2, ,EA,EA,Non Main River,Penning boards,341140,145260,51.203504,-2.843879,North Drain,1,203,2.503045649,341139.3165,145257.5921,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+67,67,15,Tealham RWLA S3, ,EA,EA,Non Main River,Penning boards,341250,145440,51.205134,-2.8423342,North Drain,1,1127,21.66206467,341255.7618,145460.8817,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+68,68,16,Tealham RWLA S4, ,EA,EA,Non Main River,Penning boards,340960,144510,51.196743,-2.8463315,North Drain,1,307,81.64017786,340878.7054,144502.4959,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+69,69,17,Tealham RWLA S5, ,EA,EA,Non Main River,Penning boards,341160,144650,51.198022,-2.8434925,North Drain,1,419,200.9747775,341356.0024,144605.571,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+70,70,18,Tealham RWLA SL1, ,EA,EA,Non Main River,Penning boards,341480,145620,51.206776,-2.8390717,North Drain,1,400,4.650127896,341480.9798,145624.5457,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+71,71,19,Tealham RWLA SL2, ,EA,EA,Non Main River,Penning boards,340910,145570,51.206268,-2.8472218,North Drain,1,1127,11.80280754,340909.1948,145558.2247,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+72,72,20,Tealham RWLA SL3, ,EA,EA,Non Main River,Penning boards,340780,145350,51.204276,-2.8490461,North Drain,1,203,18.3951245,340798.3889,145349.5215,Trench sheet dam stop-log structure.,,,,,,,2.753000021,Y,"Nearest Polyline, no name check",n/a
+73,73,21,Tealham RWLA SL4, ,EA,EA,Non Main River,Penning boards,340220,145340,51.204128,-2.8570592,North Drain,1,406,1.837714368,340219.2606,145338.3176,Trench sheet dam stop-log structure.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+74,74,22,Tealham RWLA SP1, ,EA,EA,Brue Inlet,Culvert & penstock,340890,144350,51.195297,-2.8473068,North Drain,1,307,2.696189684,340892.6873,144350.2185,300mm culvert with Penstock valve mounted midway along the culvert,,,,,,,1.264999986,N,"Nearest Polyline, no name check",n/a
+75,75,23,Totney Drove Inlet No 1, ,EA,EA,River Brue,Penstock,342440,143380,51.186734,-2.8249714,North Drain,1,1083,5.08435657,342437.6031,143375.5161,18? culvert with penstock,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+76,76,24,Totney Drove Inlet No 2, ,EA,EA,River Brue,Penstock,342920,143150,51.184714,-2.8180675,North Drain,1,1083,8.438288314,342917.7452,143141.8685,18? culvert with penstock,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+77,77,25,Totney Drove Inlet No 3, ,EA,EA,River Brue,Penstock,343370,142810,51.181702,-2.811576,North Drain,1,1083,2.641466751,343368.7718,142807.6615,18? culvert with penstock,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+78,78,26,W03Totney Drove Penstock, ,LBIDB,LBIDB,Totney Drove,Penstock,339940,145460,51.205177,-2.8610867,North Drain,1,406,1.064557572,339938.9383,145460.0777,600mm undershot penstock,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+79,79,27,W05Totney Drove Trench Sheet Dam, ,LBIDB,LBIDB,Totney Drove,Trench Sheet Dam with circular flap,343230,144150,51.193736,-2.8137909,North Drain,1,404,7.381838121,343227.714,144142.981,Ineffective ? to be replace by tilting weir in 2010.,,,,,,,0.025,N,"Nearest Polyline, no name check",n/a
+80,80,28,W04, ,LBIDB,LBIDB,Private ditch,Trench Sheet Dam,339850,145180,51.20265,-2.8623278,North Drain,1,1126,191.8652119,340039.1326,145147.7337,Potential feed to western end of plan area.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+81,81,29,Browns Bank, ,UB IDB,UB IDB,Butter Ditch Godney Middle Rhyne,Syphon with upstream inlet,347980,142760,51.181692,-2.7456205,North Drain,1,990,10.85797175,347979.7652,142770.8554,Inverted syphon under River Sheppy with inlet penstock from Butter Ditch and secondary inlet from river on downstream side of siphon. Outfall culvert under public highway to G M Rhyne.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+82,82,30,Butter Ditch Cut-Off, ,UB IDB,UB IDB,Butter Ditch,Flap valve,347550,142620,51.180394,-2.7517514,North Drain,1,318,5.869523746,347550.1219,142625.8683,Flap valve operated by local farmers to control flow of water.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+83,83,31,Butter Ditch Inlet, ,UB IDB,UB IDB,Butter Ditch feed from Sheppy,Flap valve & penstock,347460,142740,51.181464,-2.7530565,North Drain,1,318,4.495932822,347464.4939,142740.1365,Flap valve manually raised on chain to admit water from River Sheppy. Penstock closed manually to retain water in Butter Ditch; Operated by local farmers.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+84,84,32,Daggs Lane Drove Outfall, ,UB IDB,UB IDB,Daggs Lane Drove Rhyne,Penning hatch,345900,144820,51.20002,-2.7756868,North Drain,1,325,5.268864033,345905.2524,144819.5838,Not in use.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+85,85,33,Godney Crossroads, ,UB IDB,UB IDB,"Tripps Drove Rhyne, Godney Middle Rhyne",Penning hatch,347420,143480,51.188114,-2.7537372,North Drain,1,332,6.495190407,347420.2571,143473.5099,Hinged grate doubles as operating platform.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+86,86,34,Godney Middle Rhyne Hatch, ,UB IDB,UB IDB,Godney Middle Rhyne,Penning hatch,348020,143150,51.185202,-2.7451049,North Drain,1,332,5.300216578,348019.5975,143155.2849, ,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+87,87,35,Great Withy Rhyne Inlet, ,UB IDB,UB IDB,Great Withy Rhyne Millstream,Flap valve,349080,139760,51.154817,-2.7294586,North Drain,1,1090,0.733125598,349079.947,139760.7312,Cast iron flap valve on masonry headwall operated,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+88,88,36,Hurn Drove Inlet, ,UB IDB,UB IDB,Hurn Drove Rhyne,Flap valve,349330,143800,51.191164,-2.7264551,North Drain,1,338,4.610399013,349330.7975,143795.4591,Submerged chain-operated flap valve on end of culvert feeding water from River Sheppy into Hurn Rhyne via culvert under gateway. Operated by local farmer.,,,,,,,-1,N,Site outside snap distance,n/a
+89,89,37,Hurn Drove Straight Drove Inlet, ,UB IDB,UB IDB,Hurn Drove Straight Drove, ,349090,143130,51.185119,-2.7297939,North Drain,1,338,11.98444356,349101.8514,143131.7805, ,,,,,,,-1,N,Site outside snap distance,n/a
+90,90,38,Leaze Rhyne Inlet, ,UB IDB,UB IDB,Leaze Rhyne,Flap valve,349300,144150,51.194308,-2.7269339,North Drain,1,990,8.888344921,349308.8156,144151.135,Submerged chain-operated flap valve on end of culvert feeding water from River Sheppy into Leaze Rhyne via culvert under highway. Operating platform on bank of River Sheppy.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+91,91,39,Lewis Drove Rhyne Inlets, ,UB IDB,UB IDB,Westhay Moor Drove Rhyne,Flap valve / disk valve,346510,143730,51.190277,-2.7667943,North Drain,1,416,2.779941172,346510.6453,143732.704,Double control valves.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+92,92,40,London Drove Outfall, ,UB IDB,UB IDB,London Drove Rhyne,Penning hatch,345280,144710,51.198972,-2.7845429,North Drain,1,352,4.087346546,345276.0951,144711.2077,Not in use.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+93,93,41,Moggs Rhyne Crannel Inlet, ,UB IDB,UB IDB,Moggs Rhyne Crannel River Sheppy,Disk valve,349150,142790,51.182067,-2.7288873,North Drain,1,990,9.788585771,349148.6173,142799.6904, ,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+94,94,42,Moggs Rhyne Godney Outfall, ,UB IDB,UB IDB,Moggs Rhyne Godney Division Rhyne,Culverted outfall,348220,142090,51.175689,-2.7420904,North Drain,1,1069,2.662270119,348220.5902,142087.404,Headwall on culvert outfall.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+95,95,43,Oak Drove Outfall, ,UB IDB,UB IDB,Oak Drove Rhyne,Penning hatch,346340,144770,51.199612,-2.7693824,North Drain,1,374,4.944753278,346344.7444,144768.6067,Operated by local horticultural site for water supply,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+96,96,44,Parsons Drove Outfall, ,UB IDB,UB IDB,Parsons Drove Rhyne,Penning hatch,344700,144650,51.198376,-2.7928338,North Drain,1,375,1.428767151,344701.0551,144650.9634,Not in use.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+97,97,45,Peacock Farm Penning Boards, ,UB IDB,UB IDB,Galtons Canal,Penning hatch,344450,143140,51.184775,-2.7961774,North Drain,1,74,7.221189258,344457.1191,143138.7898,Not in use.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+98,98,46,Pits Rhyne Outfall, ,UB IDB,UB IDB,Pits Rhyne,Tilting weir,346380,142030,51.17498,-2.7684001,North Drain,1,139,5.173352718,346384.8431,142031.8188,Penning boards on upstream end of culvert lifted manually by climbing down watercourse bank. Downstream flap valve chain-operated by ground-mounted lever.,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+99,99,47,SWT Site Feed Hatch, ,UB IDB,UB IDB,Westhay Moor Drove Rhyne,Feed hatch,344640,143150,51.184884,-2.7934607,North Drain,1,416,1.677697177,344640.2861,143148.3469, ,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+100,100,48,Waste Rhyne Outfall, ,UB IDB,UB IDB,Waste Rhyne Division Rhyne,Penning boards,347980,142010,51.174948,-2.7455117,North Drain,1,410,12.06337455,347990.8535,142015.2656,Penning boards installed by IDB after RWLA scheme implemented on end of 600mm corrugated steel access culvert (gateway).,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+101,101,49,Westhay Moor Drove Hatch, ,UB IDB,UB IDB,Westhay Moor Drove Rhyne,Penning hatch,346640,143700,51.19002,-2.7649298,North Drain,1,416,3.422658454,346640.8819,143703.3071, ,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+102,102,50,Whites Drove Inlet, ,UB IDB,UB IDB,Whites Drove Rhyne,Feed hatch,346930,143620,51.189327,-2.7607686,North Drain,1,174,1.629262377,346929.5244,143618.4417, ,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+103,103,51,Waterleaze Inlet Boards, ,UB IDB,UB IDB,Waterleaze Rhyne,Tilting weir,348480,140330,51.159888,-2.7381188,North Drain,1,411,2.175076464,348481.1117,140331.8695, ,,,,,,,0,N,"Nearest Polyline, no name check",n/a
+104,104,,,,,,,,342315,154140,,,AxeBrueIDB_structures+N,1,103,0.912186313,342315.7365,154139.4619,,0,AX01,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+105,105,,,,,,,,342570,153357,,,AxeBrueIDB_structures+N,1,103,0.60575325,342569.4072,153357.1246,,1,AX02,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+106,106,,,,,,,,340059,153992,,,AxeBrueIDB_structures+N,1,819,0.526040841,340058.5555,153991.7187,,2,AX03,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+107,107,,,,,,,,341148,154551,,,AxeBrueIDB_structures+N,1,44,2.617027018,341150.1923,154549.5708,,3,AX04,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+108,108,,,,,,,,331426,150486,,,AxeBrueIDB_structures+N,1,308,1.346653808,331425.5713,150487.2766,,4,B02,Bund,0,,,0,N,"Nearest Polyline, no name check",n/a
+109,109,,,,,,,,332668,147990,,,AxeBrueIDB_structures+N,1,72,2.034593557,332666.3172,147991.1436,,5,B03,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+110,110,,,,,,,,332526,147135,,,AxeBrueIDB_structures+N,1,72,0.333313684,332526.2909,147134.8372,,6,B04,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+111,111,,,,,,,,333046,147745,,,AxeBrueIDB_structures+N,1,226,6.975453497,333042.1844,147750.8394,,7,B05,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+112,112,,,,,,,,332845,147115,,,AxeBrueIDB_structures+N,1,340,4.050606857,332849.0475,147114.8406,,8,B06,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+113,113,,,,,,,,332263,148393,,,AxeBrueIDB_structures+N,1,313,4.567192326,332258.5722,148391.8803,,9,B07,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+114,114,,,,,,,,334294,147797,,,AxeBrueIDB_structures+N,1,59,0.760069668,334293.561,147797.6205,,10,B08,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+115,115,,,,,,,,332721,148254,,,AxeBrueIDB_structures+N,1,72,0.292302096,332721.1067,148254.2721,,11,B09,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+116,116,,,,,,,,332314,146946,,,AxeBrueIDB_structures+N,1,1072,3.881592896,332316.1675,146942.78,,12,B10,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+117,117,,,,,,,,331391,150074,,,AxeBrueIDB_structures+N,1,132,0.570917752,331391.5585,150073.8816,,13,B11,Screen,0,,,0,N,"Nearest Polyline, no name check",n/a
+118,118,,,,,,,,338699,151460,,,AxeBrueIDB_structures+N,1,391,0.285148115,338699.2062,151460.197,,14,BA01,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+119,119,,,,,,,,337901,154873,,,AxeBrueIDB_structures+N,1,135,0.007246647,337901.0067,154872.9973,,15,BA02,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+120,120,,,,,,,,338830,152340,,,AxeBrueIDB_structures+N,1,12,0.223256564,338830.1568,152340.159,,16,BA03,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+121,121,,,,,,,,338823,152333,,,AxeBrueIDB_structures+N,1,12,1.024955231,338823.7464,152332.2975,,17,BA04,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+122,122,,,,,,,,330556,156260,,,AxeBrueIDB_structures+N,1,27,1.386031046,330557.386,156260.0136,,18,BB01,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+123,123,,,,,,,,330818,156012,,,AxeBrueIDB_structures+N,1,190,1.558962744,330819.5422,156012.228,,19,BB02,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+124,124,,,,,,,,331654,155391,,,AxeBrueIDB_structures+N,1,66,23.7847457,331654.9763,155367.2353,,20,BB03,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+125,125,,,,,,,,331748,155350,,,AxeBrueIDB_structures+N,1,66,0.57569777,331747.7621,155349.4757,,21,BB04,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+126,126,,,,,,,,331411,154785,,,AxeBrueIDB_structures+N,1,66,0.557572785,331411.1808,154784.4726,,22,BB05,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+127,127,,,,,,,,330292,153853,,,AxeBrueIDB_structures+N,1,281,0.864303562,330292.2695,153853.8212,,23,BB06,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+128,128,,,,,,,,330774,156147,,,AxeBrueIDB_structures+N,1,259,1.103456628,330774.6418,156147.8976,,24,BB07,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+129,129,,,,,,,,330703,150561,,,AxeBrueIDB_structures+N,1,124,1.290067067,330701.881,150561.6419,,25,BB08,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+130,130,,,,,,,,330019,152657,,,AxeBrueIDB_structures+N,1,414,2.084453225,330019.6226,152655.0107,,26,BB09,Flap valve,0,,,396.3739929,Y,"Nearest Polyline, no name check",n/a
+131,131,,,,,,,,331766,155323,,,AxeBrueIDB_structures+N,1,102,0.090838971,331765.9174,155322.9623,,27,BK01,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+132,132,,,,,,,,331628,150629,,,AxeBrueIDB_structures+N,1,6,0.42464533,331628.295,150629.3054,,28,BK02,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+133,133,,,,,,,,332850,155945,,,AxeBrueIDB_structures+N,1,50,1.068250227,332850.8059,155945.7012,,29,BL02,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+134,134,,,,,,,,331457,156449,,,AxeBrueIDB_structures+N,1,50,1.49459691,331457.6807,156450.3306,,30,BL04,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+135,135,,,,,,,,332409,156394,,,AxeBrueIDB_structures+N,1,358,4.464111803,332410.2358,156398.2896,,31,BL05,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+136,136,,,,,,,,333012,156652,,,AxeBrueIDB_structures+N,1,211,0.744961169,333011.2753,156651.8273,,32,BL06,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+137,137,,,,,,,,332992,156656,,,AxeBrueIDB_structures+N,1,57,1.649553688,332990.6725,156656.9792,,33,BL07,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+138,138,,,,,,,,331422,157006,,,AxeBrueIDB_structures+N,1,358,0.238909371,331421.7623,157005.9757,,34,BL09,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+139,139,,,,,,,,339182,140625,,,AxeBrueIDB_structures+N,1,1124,0.316919873,339182.0555,140625.312,,35,C01,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+140,140,,,,,,,,337798,140908,,,AxeBrueIDB_structures+N,1,367,0.434885525,337797.567,140907.9593,,36,C03,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+141,141,,,,,,,,340750,139998,,,AxeBrueIDB_structures+N,1,22,0.43435816,340750.4062,139997.8463,,37,C05,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+142,142,,,,,,,,339278,140659,,,AxeBrueIDB_structures+N,1,368,0.394984648,339277.8545,140659.3672,,38,C07,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+143,143,,,,,,,,338396,142719,,,AxeBrueIDB_structures+N,1,487,58.57471249,338407.974,142776.3378,,39,C08,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+144,144,,,,,,,,339989,142353,,,AxeBrueIDB_structures+N,1,41,1.131876879,339987.9045,142353.2845,,40,C09,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+145,145,,,,,,,,339535,141790,,,AxeBrueIDB_structures+N,1,122,0.519945089,339534.4832,141789.9425,,41,C10,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+146,146,,,,,,,,336650,142003,,,AxeBrueIDB_structures+N,1,326,3.608491323,336649.2097,141999.4791,,42,C11,Penstock,0,,,0.066,N,"Nearest Polyline, no name check",n/a
+147,147,,,,,,,,341044,141073,,,AxeBrueIDB_structures+N,1,286,0.592102492,341044.5819,141072.8906,,43,C12,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+148,148,,,,,,,,339890,142524,,,AxeBrueIDB_structures+N,1,488,60.24875599,339864.0985,142469.6031,,44,C13,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+149,149,,,,,,,,339426,142427,,,AxeBrueIDB_structures+N,1,122,1.644231945,339425.932,142425.3572,,45,C14,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+150,150,,,,,,,,339009,141916,,,AxeBrueIDB_structures+N,1,329,29.09867285,339037.34,141909.3987,,46,C15,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+151,151,,,,,,,,338850,141762,,,AxeBrueIDB_structures+N,1,329,4.371017641,338853.4859,141759.3629,,47,C16,Culvert,0,,,1.169999957,N,"Nearest Polyline, no name check",n/a
+152,152,,,,,,,,336686,141997,,,AxeBrueIDB_structures+N,1,326,5.464410697,336684.8494,141991.6581,,48,C17,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+153,153,,,,,,,,339939,141439,,,AxeBrueIDB_structures+N,1,97,2.068305943,339940.9864,141438.4239,,49,C18,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+154,154,,,,,,,,339325,141084,,,AxeBrueIDB_structures+N,1,418,1.272047327,339325.2551,141085.2462,,50,C19,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+155,155,,,,,,,,336545,142016,,,AxeBrueIDB_structures+N,1,326,6.70431136,336546.4684,142022.5415,,51,C20,Culvert,0,,,0.493999988,N,"Nearest Polyline, no name check",n/a
+156,156,,,,,,,,340745,139994,,,AxeBrueIDB_structures+N,1,368,0.171097507,340744.9733,139994.169,,52,C21,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+157,157,,,,,,,,339766,141495,,,AxeBrueIDB_structures+N,1,187,1.816426837,339765.4434,141493.271,,53,C22,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+158,158,,,,,,,,336584,152249,,,AxeBrueIDB_structures+N,1,283,1.364323561,336583.4005,152247.7745,,54,EB01,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+159,159,,,,,,,,336665,155295,,,AxeBrueIDB_structures+N,1,104,0.449766922,336665.4407,155294.9104,,55,EB02,Penstock,0,,,0.152999997,N,"Nearest Polyline, no name check",n/a
+160,160,,,,,,,,332214,145956,,,AxeBrueIDB_structures+N,1,195,0.064155508,332213.9566,145955.9528,,56,H01,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+161,161,,,,,,,,333707,143665,,,AxeBrueIDB_structures+N,1,421,0.278023246,333706.9883,143665.2778,,57,H02,Bund,0,,,0,N,"Nearest Polyline, no name check",n/a
+162,162,,,,,,,,331946,146051,,,AxeBrueIDB_structures+N,1,310,0.337696058,331946.159,146051.2979,,58,H03,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+163,163,,,,,,,,331718,143946,,,AxeBrueIDB_structures+N,1,310,4.415330675,331722.3343,143945.1578,,59,H05,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+164,164,,,,,,,,331959,146064,,,AxeBrueIDB_structures+N,1,371,0.190693339,331959.0921,146064.167,,60,H06,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+165,165,,,,,,,,330998,146510,,,AxeBrueIDB_structures+N,1,371,0.99381653,330997.6888,146509.0562,,61,H07,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+166,166,,,,,,,,330301,145698,,,AxeBrueIDB_structures+N,1,402,0.287678973,330300.7474,145698.1378,,62,H08,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+167,167,,,,,,,,330738,145995,,,AxeBrueIDB_structures+N,1,402,0.239436553,330737.8109,145994.8531,,63,H09,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+168,168,,,,,,,,330588,145369,,,AxeBrueIDB_structures+N,1,402,0.412059504,330588.4104,145368.9521,,64,H10,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+169,169,,,,,,,,334569,145618,,,AxeBrueIDB_structures+N,1,333,0.641221929,334569.2218,145618.6016,,65,H11,Penstock,0,,,-1,N,Site outside snap distance,n/a
+170,170,,,,,,,,333771,145652,,,AxeBrueIDB_structures+N,1,320,0.356040212,333771.3557,145651.9845,,66,H12,Penstock,0,,,-1,N,Site outside snap distance,n/a
+171,171,,,,,,,,336088,142099,,,AxeBrueIDB_structures+N,1,382,0.33701842,336088.08,142099.3274,,67,H14,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+172,172,,,,,,,,331963,142873,,,AxeBrueIDB_structures+N,1,395,0.031757251,331962.9907,142872.9696,,68,H16,Tilting Weir,0,,,7.590000153,N,"Nearest Polyline, no name check",n/a
+173,173,,,,,,,,333428,146164,,,AxeBrueIDB_structures+N,1,319,0.026132391,333427.974,146164.0023,,69,H17,Culvert,1,,,0.057999998,N,"Nearest Polyline, no name check",n/a
+174,174,,,,,,,,335033,141781,,,AxeBrueIDB_structures+N,1,243,1.163695169,335033.3412,141782.1126,,70,H18,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+175,175,,,,,,,,330646,145752,,,AxeBrueIDB_structures+N,1,402,5.059203753,330646.4814,145746.9637,,71,H21,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+176,176,,,,,,,,333028,146493,,,AxeBrueIDB_structures+N,1,386,0.204717278,333028.0835,146492.8131,,72,H22,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+177,177,,,,,,,,335469,146338,,,AxeBrueIDB_structures+N,1,417,0.741540673,335469.2388,146338.702,,73,H23,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+178,178,,,,,,,,336671,143213,,,AxeBrueIDB_structures+N,1,60,0.842245042,336670.5736,143212.2737,,74,H24,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+179,179,,,,,,,,336013,142316,,,AxeBrueIDB_structures+N,1,382,0.29360298,336012.925,142315.7161,,75,H25,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+180,180,,,,,,,,336300,144613,,,AxeBrueIDB_structures+N,1,723,158.7527465,336416.4205,144720.9291,,76,H26,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+181,181,,,,,,,,335564,143505,,,AxeBrueIDB_structures+N,1,333,0.645930953,335564.6322,143504.8676,,77,H27,Tilting Weir,0,,,-1,N,Site outside snap distance,n/a
+182,182,,,,,,,,335419,142386,,,AxeBrueIDB_structures+N,1,382,0.40604681,335418.8885,142385.6096,,78,H28,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+183,183,,,,,,,,332339,142267,,,AxeBrueIDB_structures+N,1,395,0.225910164,332339.2211,142266.9536,,79,H30,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+184,184,,,,,,,,336103,144896,,,AxeBrueIDB_structures+N,1,333,0.436969335,336103.4305,144895.9249,,80,H31,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+185,185,,,,,,,,336059,143678,,,AxeBrueIDB_structures+N,1,333,337.3245975,335781.8205,143870.2483,,81,H32,Weir,0,,,-1,N,Site outside snap distance,n/a
+186,186,,,,,,,,332196,146299,,,AxeBrueIDB_structures+N,1,371,0.357878417,332195.7417,146299.2477,,82,H33,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+187,187,,,,,,,,332412,146547,,,AxeBrueIDB_structures+N,1,371,0.075720707,332412.0647,146546.9606,,83,H34,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+188,188,,,,,,,,336241,143295,,,AxeBrueIDB_structures+N,1,1051,101.3402727,336213.5894,143197.4371,,84,H36,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+189,189,,,,,,,,336418,143964,,,AxeBrueIDB_structures+N,1,60,188.8143219,336603.8316,143930.5715,,85,H37,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+190,190,,,,,,,,336532,143638,,,AxeBrueIDB_structures+N,1,60,145.0245454,336675.7693,143618.9606,,86,H38,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+191,191,,,,,,,,336280,143490,,,AxeBrueIDB_structures+N,1,1051,299.6204729,336198.9585,143201.5478,,87,H39,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+192,192,,,,,,,,332472,141775,,,AxeBrueIDB_structures+N,1,250,7.565084061,332470.5994,141782.4343,,88,H40,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+193,193,,,,,,,,331655,144413,,,AxeBrueIDB_structures+N,1,310,2.12179817,331657.1156,144412.8376,,89,H41,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+194,194,,,,,,,,336112,144924,,,AxeBrueIDB_structures+N,1,333,0.015883461,336112.0147,144923.994,,90,H42,Flap valve,0,,,0.368999988,N,"Nearest Polyline, no name check",n/a
+195,195,,,,,,,,332917,155818,,,AxeBrueIDB_structures+N,1,299,0.337366451,332917.2871,155818.1772,,91,LY03,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+196,196,,,,,,,,333269,156338,,,AxeBrueIDB_structures+N,1,305,1.017236193,333268.6909,156338.9691,,92,LY04,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+197,197,,,,,,,,337973,148093,,,AxeBrueIDB_structures+N,1,95,0.697164681,337973.6964,148093.0326,,93,M01,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+198,198,,,,,,,,337607,148313,,,AxeBrueIDB_structures+N,1,372,3.563179127,337603.6362,148311.8248,,94,M02,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+199,199,,,,,,,,335947,146619,,,AxeBrueIDB_structures+N,1,425,0.013532531,335947.0093,146618.9902,,95,M03,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+200,200,,,,,,,,337893,147146,,,AxeBrueIDB_structures+N,1,423,1.127170039,337892.2133,147146.8072,,96,M05,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+201,201,,,,,,,,338138,147673,,,AxeBrueIDB_structures+N,1,351,0.334367477,338137.7531,147673.2255,,97,M06,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+202,202,,,,,,,,337663,145254,,,AxeBrueIDB_structures+N,1,409,1.888233074,337662.5706,145252.1612,,98,M08,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+203,203,,,,,,,,337679,147635,,,AxeBrueIDB_structures+N,1,47,0.319052473,337678.9939,147635.319,,99,M09,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+204,204,,,,,,,,336437,145170,,,AxeBrueIDB_structures+N,1,136,0.39947451,336437.389,145169.9092,,100,M10,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+205,205,,,,,,,,338672,145759,,,AxeBrueIDB_structures+N,1,257,0.108357995,338671.9101,145758.9395,,101,M11,Siphon,0,,,0,N,"Nearest Polyline, no name check",n/a
+206,206,,,,,,,,338710,146390,,,AxeBrueIDB_structures+N,1,152,0.259316217,338709.7943,146389.8421,,102,M12,Penstock,0,,,11.31599998,Y,"Nearest Polyline, no name check",n/a
+207,207,,,,,,,,337387,145340,,,AxeBrueIDB_structures+N,1,379,0.215729425,337386.8123,145339.8937,,103,M13,Penstock,0,,,1.049999952,N,"Nearest Polyline, no name check",n/a
+208,208,,,,,,,,337255,145581,,,AxeBrueIDB_structures+N,1,379,0.029169527,337254.9742,145580.9865,,104,M14,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+209,209,,,,,,,,339273,145941,,,AxeBrueIDB_structures+N,1,399,1.390207762,339272.3561,145942.2321,,105,M15,Penstock,0,,,-1,N,Site outside snap distance,n/a
+210,210,,,,,,,,338033,147706,,,AxeBrueIDB_structures+N,1,351,0.896452459,338032.1931,147706.3906,,106,M16,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+211,211,,,,,,,,338006,145206,,,AxeBrueIDB_structures+N,1,1130,18.22455348,338017.7035,145192.03,,107,M17,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+212,212,,,,,,,,339257,145972,,,AxeBrueIDB_structures+N,1,399,1.691818646,339257.8728,145970.5507,,108,M18,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+213,213,,,,,,,,335088,146960,,,AxeBrueIDB_structures+N,1,179,2.278934945,335087.1454,146957.8874,,109,M19,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+214,214,,,,,,,,339233,147186,,,AxeBrueIDB_structures+N,1,351,0.941194334,339233.1291,147186.9323,,110,M20,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+215,215,,,,,,,,336799,145134,,,AxeBrueIDB_structures+N,1,1081,21.25206372,336796.7433,145112.8681,,111,M21,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+216,216,,,,,,,,339810,145185,,,AxeBrueIDB_structures+N,1,1126,232.1363795,340038.8302,145145.9613,,112,M22,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+217,217,,,,,,,,336950,145317,,,AxeBrueIDB_structures+N,1,1081,219.251454,336926.7187,145098.9881,,113,M23,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+218,218,,,,,,,,336266,145627,,,AxeBrueIDB_structures+N,1,136,1.136661842,336265.4711,145625.9939,,114,M24,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+219,219,,,,,,,,336464,145667,,,AxeBrueIDB_structures+N,1,136,135.6839077,336370.6894,145568.4949,,115,M25,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+220,220,,,,,,,,336737,147390,,,AxeBrueIDB_structures+N,1,409,153.004187,336662.2985,147256.4711,,116,M26,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+221,221,,,,,,,,345525,147541,,,AxeBrueIDB_structures+N,1,185,0.496033004,345525.1909,147541.4578,,117,UA01,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+222,222,,,,,,,,345636,148173,,,AxeBrueIDB_structures+N,1,413,4.326004856,345632.85,148170.0349,,118,UA02,Valve (Inlet),0,,,0.078000002,N,"Nearest Polyline, no name check",n/a
+223,223,,,,,,,,345909,148049,,,AxeBrueIDB_structures+N,1,360,7.059882641,345903.3343,148044.7879,,119,UA03,Valve (Inlet),0,,,-1,N,Site outside snap distance,n/a
+224,224,,,,,,,,346409,147964,,,AxeBrueIDB_structures+N,1,204,7.439786476,346404.2934,147958.2382,,120,UA04,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+225,225,,,,,,,,347313,145562,,,AxeBrueIDB_structures+N,1,185,4.184605269,347313.1673,145566.1813,,121,UA05,Penstock,1,,,0,N,"Nearest Polyline, no name check",n/a
+226,226,,,,,,,,347959,147052,,,AxeBrueIDB_structures+N,1,704,1.720846564,347960.6996,147052.2695,,122,UA06,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+227,227,,,,,,,,350332,147046,,,AxeBrueIDB_structures+N,1,775,0.099976736,350332.0712,147045.9298,,123,UA07,Valve (Inlet),0,,,5.585999966,N,"Nearest Polyline, no name check",n/a
+228,228,,,,,,,,350337,146540,,,AxeBrueIDB_structures+N,1,863,1.919004503,350338.6678,146539.0508,,124,UA08,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+229,229,,,,,,,,350598,145432,,,AxeBrueIDB_structures+N,1,444,0.26920445,350597.9963,145431.7308,,125,UA09,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+230,230,,,,,,,,349677,145435,,,AxeBrueIDB_structures+N,1,444,0.822969298,349677.4211,145434.2929,,126,UA10,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+231,231,,,,,,,,349110,145985,,,AxeBrueIDB_structures+N,1,408,2.755357056,349110.3755,145982.2703,,127,UA11,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+232,232,,,,,,,,345571,149518,,,AxeBrueIDB_structures+N,1,118,0.347980892,345571.0692,149518.341,,128,UA12,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+233,233,,,,,,,,345511,150206,,,AxeBrueIDB_structures+N,1,306,0.759525779,345511.3781,150206.6587,,129,UA13,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+234,234,,,,,,,,345435,152743,,,AxeBrueIDB_structures+N,1,108,0.567653849,345434.5783,152742.62,,130,UA14,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+235,235,,,,,,,,345851,152115,,,AxeBrueIDB_structures+N,1,229,0.948550279,345850.2981,152115.6381,,131,UA15,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+236,236,,,,,,,,343780,151937,,,AxeBrueIDB_structures+N,1,373,0.844045547,343779.1865,151937.2251,,132,UA16,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+237,237,,,,,,,,344330,151187,,,AxeBrueIDB_structures+N,1,306,0.694514974,344330.5064,151186.5247,,133,UA17,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+238,238,,,,,,,,344152,150671,,,AxeBrueIDB_structures+N,1,99,0.145408632,344151.9023,150671.1077,,134,UA18,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+239,239,,,,,,,,344851,149267,,,AxeBrueIDB_structures+N,1,274,0.305975855,344851.1163,149266.717,,135,UA19,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+240,240,,,,,,,,343500,151761,,,AxeBrueIDB_structures+N,1,952,8.525175674,343494.0841,151754.8615,,136,UA20,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+241,241,,,,,,,,343094,152110,,,AxeBrueIDB_structures+N,1,346,1.688826959,343095.6805,152110.1675,,137,UA21,Penstock,0,,,0.149000004,Y,"Nearest Polyline, no name check",n/a
+242,242,,,,,,,,342375,152373,,,AxeBrueIDB_structures+N,1,346,0.61586234,342375.5487,152373.2796,,138,UA22,Penstock,0,,,4.578999996,N,"Nearest Polyline, no name check",n/a
+243,243,,,,,,,,342523,153157,,,AxeBrueIDB_structures+N,1,324,1.117478076,342524.0942,153156.7731,,139,UA23,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+244,244,,,,,,,,342881,152753,,,AxeBrueIDB_structures+N,1,398,3.931149059,342884.5437,152754.7018,,140,UA24,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+245,245,,,,,,,,343020,152617,,,AxeBrueIDB_structures+N,1,795,0.056873381,343019.9774,152617.0522,,141,UA25,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+246,246,,,,,,,,346043,152975,,,AxeBrueIDB_structures+N,1,272,182.5485852,346123.4132,152811.1168,,142,UA26,Penstock,0,,,11.39700031,Y,"Nearest Polyline, no name check",n/a
+247,247,,,,,,,,343863,151500,,,AxeBrueIDB_structures+N,1,1121,0.390909453,343863.3804,151500.0902,,143,UA27,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+248,248,,,,,,,,343718,152185,,,AxeBrueIDB_structures+N,1,1027,4.784278225,343717.911,152180.2166,,144,UA28,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+249,249,,,,,,,,349373,139580,,,AxeBrueIDB_structures+N,1,49,5.704836522,349378.7047,139579.9656,,145,UB01,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+250,250,,,,,,,,349868,141200,,,AxeBrueIDB_structures+N,1,49,6.576426386,349874.483,141198.8953,,146,UB02,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+251,251,,,,,,,,349891,141245,,,AxeBrueIDB_structures+N,1,42,5.480248229,349893.7452,141240.2569,,147,UB03,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+252,252,,,,,,,,347991,142763,,,AxeBrueIDB_structures+N,1,318,0.45828462,347991.4058,142763.2129,,148,UB04,Siphon,1,,,0,N,"Nearest Polyline, no name check",n/a
+253,253,,,,,,,,348023,143154,,,AxeBrueIDB_structures+N,1,332,1.539580531,348022.8831,143155.5351,,149,UB05,Penstock,1,,,0,N,"Nearest Polyline, no name check",n/a
+254,254,,,,,,,,347464,142745,,,AxeBrueIDB_structures+N,1,318,0.345942199,347464.3458,142745.0105,,150,UB06,Valve (Inlet),1,,,0,N,"Nearest Polyline, no name check",n/a
+255,255,,,,,,,,347550,142626,,,AxeBrueIDB_structures+N,1,318,0.12918242,347549.9973,142625.8708,,151,UB102,Flap valve,1,,,0,N,"Nearest Polyline, no name check",n/a
+256,256,,,,,,,,347420,143480,,,AxeBrueIDB_structures+N,1,332,6.495190407,347420.2571,143473.5099,,152,UB07,Penstock,1,,,0,N,"Nearest Polyline, no name check",n/a
+257,257,,,,,,,,346932,143623,,,AxeBrueIDB_structures+N,1,262,4.866175421,346927.471,143624.7798,,153,UB08,Penstock,1,,,0,N,"Nearest Polyline, no name check",n/a
+258,258,,,,,,,,346642,143707,,,AxeBrueIDB_structures+N,1,416,3.856312151,346641.0064,143703.2739,,154,UB09,Penstock,1,,,0,N,"Nearest Polyline, no name check",n/a
+259,259,,,,,,,,346510,143736,,,AxeBrueIDB_structures+N,1,416,3.056184891,346509.2906,143733.0273,,155,UB10,Valve (Inlet),1,,,0,N,"Nearest Polyline, no name check",n/a
+260,260,,,,,,,,344649,143153,,,AxeBrueIDB_structures+N,1,416,3.098802968,344649.5285,143149.9466,,156,UB11,Stoplogs,1,,,0,N,"Nearest Polyline, no name check",n/a
+261,261,,,,,,,,344458,143146,,,AxeBrueIDB_structures+N,1,74,0.339906331,344458.3351,143145.943,,157,UB12,Stoplogs,2,,,0,N,"Nearest Polyline, no name check",n/a
+262,262,,,,,,,,347183,144464,,,AxeBrueIDB_structures+N,1,194,2.03356121,347184.9226,144463.3375,,158,UB13,Stoplogs,1,,,0,N,"Nearest Polyline, no name check",n/a
+263,263,,,,,,,,348396,140136,,,AxeBrueIDB_structures+N,1,411,0.179170643,348396.1784,140136.0166,,159,UB14,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+264,264,,,,,,,,348486,140332,,,AxeBrueIDB_structures+N,1,411,0.966090272,348485.1341,140332.4285,,160,UB15,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+265,265,,,,,,,,346384,142034,,,AxeBrueIDB_structures+N,1,139,0.022409394,346384.021,142034.0079,,161,UB16,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+266,266,,,,,,,,341654,143310,,,AxeBrueIDB_structures+N,1,86,0.210633479,341654.1781,143310.1124,,162,UB17,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+267,267,,,,,,,,344703,144655,,,AxeBrueIDB_structures+N,1,375,0.519376652,344702.5091,144655.1697,,163,UB18,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+268,268,,,,,,,,345287,144712,,,AxeBrueIDB_structures+N,1,352,0.399245579,345287.3825,144711.8857,,164,UB19,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+269,269,,,,,,,,345907,144820,,,AxeBrueIDB_structures+N,1,325,1.583306705,345905.4692,144820.4044,,165,UB20,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+270,270,,,,,,,,346346,144770,,,AxeBrueIDB_structures+N,1,374,0.812141275,346345.2208,144770.2288,,166,UB21,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+271,271,,,,,,,,349332,143802,,,AxeBrueIDB_structures+N,1,338,6.650517204,349330.7975,143795.4591,,167,UB22,Valve (Inlet),4,,,-1,N,Site outside snap distance,n/a
+272,272,,,,,,,,349303,144158,,,AxeBrueIDB_structures+N,1,990,4.891315325,349307.8513,144158.6246,,168,UB23,Valve (Inlet),1,,,0,N,"Nearest Polyline, no name check",n/a
+273,273,,,,,,,,350823,143925,,,AxeBrueIDB_structures+N,1,85,0.9024965,350822.5448,143925.7793,,169,UB24,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+274,274,,,,,,,,351110,143799,,,AxeBrueIDB_structures+N,1,162,1.926864961,351108.1236,143798.5619,,170,UB25,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+275,275,,,,,,,,349087,139767,,,AxeBrueIDB_structures+N,1,78,2.729308976,349087.007,139769.7293,,171,UB26,Valve (Inlet),1,,,0,N,"Nearest Polyline, no name check",n/a
+276,276,,,,,,,,347991,142016,,,AxeBrueIDB_structures+N,1,410,0.266658534,347990.7371,142015.9556,,172,UB27,Tilting Weir,1,,,0,N,"Nearest Polyline, no name check",n/a
+277,277,,,,,,,,348226,142099,,,AxeBrueIDB_structures+N,1,117,1.694119259,348226.6458,142100.5662,,173,UB28,Flap valve,1,,,10.28999996,Y,"Nearest Polyline, no name check",n/a
+278,278,,,,,,,,349184,142810,,,AxeBrueIDB_structures+N,1,210,0.414614682,349184.41,142809.9386,,174,UB29,Valve (Inlet),1,,,0,N,"Nearest Polyline, no name check",n/a
+279,279,,,,,,,,349166,142701,,,AxeBrueIDB_structures+N,1,210,2.074705547,349168.0518,142700.6928,,175,UB30,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+280,280,,,,,,,,349168,142700,,,AxeBrueIDB_structures+N,1,210,0.051329902,349167.9492,142700.0076,,176,UB31,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+281,281,,,,,,,,350815,143466,,,AxeBrueIDB_structures+N,1,162,0.809701032,350814.8332,143466.7923,,177,UB32,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+282,282,,,,,,,,352327,143430,,,AxeBrueIDB_structures+N,1,144,1.746271731,352325.7664,143431.236,,178,UB33,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+283,283,,,,,,,,351312,137248,,,AxeBrueIDB_structures+N,1,344,1.064316794,351311.4036,137247.1185,,179,UB35,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+284,284,,,,,,,,353048,140195,,,AxeBrueIDB_structures+N,1,401,0.936114355,353048.8154,140195.4599,,180,UB36,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+285,285,,,,,,,,353551,140053,,,AxeBrueIDB_structures+N,1,83,1.787275873,353552.1844,140051.6616,,181,UB37,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+286,286,,,,,,,,354489,139980,,,AxeBrueIDB_structures+N,1,381,1.277718854,354489.3952,139981.215,,182,UB38,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+287,287,,,,,,,,354464,139928,,,AxeBrueIDB_structures+N,1,407,1.192140711,354463.9853,139929.1921,,183,UB39,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+288,288,,,,,,,,351334,141214,,,AxeBrueIDB_structures+N,1,353,1.429452277,351332.6115,141214.3397,,184,UB40,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+289,289,,,,,,,,351305,141146,,,AxeBrueIDB_structures+N,1,510,7.24531911,351306.368,141153.115,,185,UB41,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+290,290,,,,,,,,352014,141021,,,AxeBrueIDB_structures+N,1,1132,2.719223607,352011.2936,141021.2639,,186,UB42,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+291,291,,,,,,,,346909,138695,,,AxeBrueIDB_structures+N,1,158,11.79060044,346920.7837,138694.5967,,187,UB43,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+292,292,,,,,,,,354854,141250,,,AxeBrueIDB_structures+N,1,164,108.8867269,354747.6072,141226.8293,,188,UB44,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+293,293,,,,,,,,353645,140724,,,AxeBrueIDB_structures+N,1,445,4.898863061,353644.1592,140719.1738,,189,UB45,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+294,294,,,,,,,,354046,141167,,,AxeBrueIDB_structures+N,1,164,0.641994329,354045.4874,141166.6135,,190,UB46,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+295,295,,,,,,,,354157,140627,,,AxeBrueIDB_structures+N,1,445,2.063004837,354156.5834,140624.9795,,191,UB47,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+296,296,,,,,,,,355010,140618,,,AxeBrueIDB_structures+N,1,445,251.7375136,354758.958,140599.3,,192,UB48,Penstock,0,,,15.28199959,Y,"Nearest Polyline, no name check",n/a
+297,297,,,,,,,,355001,141252,,,AxeBrueIDB_structures+N,1,164,252.9455085,354753.8478,141198.1741,,193,UB49,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+298,298,,,,,,,,354452,140186,,,AxeBrueIDB_structures+N,1,985,1.341338687,354452.2299,140187.3215,,194,UB50,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+299,299,,,,,,,,350884,136549,,,AxeBrueIDB_structures+N,1,363,0.509840542,350884.2547,136549.4417,,195,UB51,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+300,300,,,,,,,,351841,135827,,,AxeBrueIDB_structures+N,1,363,0.231265255,351840.8558,135826.8192,,196,UB52,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+301,301,,,,,,,,352060,135895,,,AxeBrueIDB_structures+N,1,655,0.750441187,352059.7904,135895.7206,,197,UB53,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+302,302,,,,,,,,352670,135250,,,AxeBrueIDB_structures+N,1,1092,7.380450417,352665.6855,135244.012,,198,UB54,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+303,303,,,,,,,,352650,135245,,,AxeBrueIDB_structures+N,1,1092,8.36781992,352654.8917,135251.7891,,199,UB55,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+304,304,,,,,,,,352327,136175,,,AxeBrueIDB_structures+N,1,40,0.615336919,352326.4519,136175.2797,,200,UB56,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+305,305,,,,,,,,354371,133384,,,AxeBrueIDB_structures+N,1,298,4.241675634,354371.8697,133388.1516,,201,UB57,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+306,306,,,,,,,,354010,133835,,,AxeBrueIDB_structures+N,1,298,0.11250408,354010.104,133834.9572,,202,UB58,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+307,307,,,,,,,,354520,133794,,,AxeBrueIDB_structures+N,1,298,0.102779501,354519.9012,133794.0283,,203,UB59,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+308,308,,,,,,,,354571,132924,,,AxeBrueIDB_structures+N,1,298,0.908811566,354571.0448,132924.9077,,204,UB60,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+309,309,,,,,,,,354771,132943,,,AxeBrueIDB_structures+N,1,298,12.2153479,354758.958,132940.9494,,205,UB61,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+310,310,,,,,,,,349097,143130,,,AxeBrueIDB_structures+N,1,338,5.062126558,349102.0059,143130.7521,,206,UB62,Valve (Inlet),1,,,-1,N,Site outside snap distance,n/a
+311,311,,,,,,,,349007,137182,,,AxeBrueIDB_structures+N,1,363,0.092334297,349006.9845,137181.909,,207,UB63,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+312,312,,,,,,,,350230,141194,,,AxeBrueIDB_structures+N,1,42,0.092894257,350229.98,141193.9093,,208,UB64,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+313,313,,,,,,,,347194,142785,,,AxeBrueIDB_structures+N,1,254,1.847793432,347192.2382,142784.4429,,209,UB65,Penstock,2,,,0,N,"Nearest Polyline, no name check",n/a
+314,314,,,,,,,,345280,144687,,,AxeBrueIDB_structures+N,1,1127,13.41457424,345281.3353,144700.348,,210,UB66,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+315,315,,,,,,,,349821,140075,,,AxeBrueIDB_structures+N,1,49,4.394839512,349818.471,140078.5943,,211,UB68,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+316,316,,,,,,,,348856,140967,,,AxeBrueIDB_structures+N,1,410,5.178324326,348851.8239,140970.0619,,212,UB69,Tilting Weir,0,,,0.232999995,N,"Nearest Polyline, no name check",n/a
+317,317,,,,,,,,349032,141184,,,AxeBrueIDB_structures+N,1,75,0.737215312,349031.3314,141183.6894,,213,UB70,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+318,318,,,,,,,,349043,141198,,,AxeBrueIDB_structures+N,1,75,0.2726151,349043.2496,141198.1096,,214,UB71,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+319,319,,,,,,,,348636,142119,,,AxeBrueIDB_structures+N,1,75,0.258365246,348636.2368,142119.1034,,215,UB72,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+320,320,,,,,,,,349954,141435,,,AxeBrueIDB_structures+N,1,510,12.17662793,349952.3451,141447.0636,,216,UB73,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+321,321,,,,,,,,349727,141024,,,AxeBrueIDB_structures+N,1,78,13.57933237,349721.6166,141036.4667,,217,UB74,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+322,322,,,,,,,,349933,139972,,,AxeBrueIDB_structures+N,1,49,0.18377879,349933.148,139972.109,,218,UB75,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+323,323,,,,,,,,349217,137075,,,AxeBrueIDB_structures+N,1,363,0.96084769,349217.9208,137074.7255,,219,UB76,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+324,324,,,,,,,,354169,142704,,,AxeBrueIDB_structures+N,1,336,5.407386925,354164.0868,142706.2585,,220,UB77,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+325,325,,,,,,,,352203,140883,,,AxeBrueIDB_structures+N,1,177,2.199830042,352203.5335,140885.1342,,221,UB78,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+326,326,,,,,,,,349029,143557,,,AxeBrueIDB_structures+N,1,338,0.079120854,349029.0393,143556.9313,,222,UB79,Valve (Inlet),0,,,-1,N,Site outside snap distance,n/a
+327,327,,,,,,,,354584,132893,,,AxeBrueIDB_structures+N,1,298,2.222556234,354583.4861,132895.1623,,223,UB80,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+328,328,,,,,,,,354482,133375,,,AxeBrueIDB_structures+N,1,298,0.536477951,354481.4641,133375.0248,,224,UB81,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+329,329,,,,,,,,353990,133849,,,AxeBrueIDB_structures+N,1,214,0.086176333,353989.9138,133848.9981,,225,UB82,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+330,330,,,,,,,,353277,134563,,,AxeBrueIDB_structures+N,1,3,3.229370398,353279.5841,134561.0632,,226,UB83,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+331,331,,,,,,,,353099,134278,,,AxeBrueIDB_structures+N,1,3,2.877048362,353097.5854,134275.4948,,227,UB84,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+332,332,,,,,,,,352697,135409,,,AxeBrueIDB_structures+N,1,40,0.104971219,352696.9147,135409.0612,,228,UB85,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+333,333,,,,,,,,346920,138770,,,AxeBrueIDB_structures+N,1,158,3.55433828,346923.5367,138769.6463,,229,UB86,Stoplogs,0,,,0,N,"Nearest Polyline, no name check",n/a
+334,334,,,,,,,,347067,136675,,,AxeBrueIDB_structures+N,1,941,1.121687492,347066.689,136673.9223,,230,UB87,Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+335,335,,,,,,,,345129,142664,,,AxeBrueIDB_structures+N,1,321,0.435092198,345129.2276,142664.3708,,231,UB88,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+336,336,,,,,,,,345516,142488,,,AxeBrueIDB_structures+N,1,981,0.147889999,345515.9691,142488.1446,,232,UB89,Valve (Inlet),1,,,0,N,"Nearest Polyline, no name check",n/a
+337,337,,,,,,,,349071,143962,,,AxeBrueIDB_structures+N,1,338,1.223041918,349069.8233,143961.6667,,233,UB90,Penstock,0,,,0.80400002,N,"Nearest Polyline, no name check",n/a
+338,338,,,,,,,,349613,143219,,,AxeBrueIDB_structures+N,1,162,1.646659832,349612.5727,143220.5902,,234,UB91,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+339,339,,,,,,,,346550,141258,,,AxeBrueIDB_structures+N,1,1084,4.945702079,346553.7044,141261.2768,,235,UB92,Valve (Inlet),0,,,0,N,"Nearest Polyline, no name check",n/a
+340,340,,,,,,,,339527,149191,,,AxeBrueIDB_structures+N,1,141,176.0903029,339700.7119,149162.1561,,236,W01,Penstock,0,,,9.803999901,Y,"Nearest Polyline, no name check",n/a
+341,341,,,,,,,,338851,148092,,,AxeBrueIDB_structures+N,1,141,1.010702761,338851.2239,148092.9856,,237,W02,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+342,342,,,,,,,,339943,145457,,,AxeBrueIDB_structures+N,1,406,4.275462919,339938.7359,145457.312,,238,W03,Penstock,1,,,0,N,"Nearest Polyline, no name check",n/a
+343,343,,,,,,,,339847,145177,,,AxeBrueIDB_structures+N,1,1126,194.3179707,340038.5504,145144.3213,,239,W04,Bund,3,,,0,N,"Nearest Polyline, no name check",n/a
+344,344,,,,,,,,343226,144148,,,AxeBrueIDB_structures+N,1,404,4.241451233,343224.6865,144143.967,,240,W05,Tilting Weir,2,,,0.023,N,"Nearest Polyline, no name check",n/a
+345,345,,,,,,,,338812,148135,,,AxeBrueIDB_structures+N,1,141,2.696295241,338814.5783,148135.7889,,241,W06,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+346,346,,,,,,,,339610,146680,,,AxeBrueIDB_structures+N,1,453,4.196495263,339606.9782,146682.9119,,242,W07,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+347,347,,,,,,,,340111,145387,,,AxeBrueIDB_structures+N,1,406,1.011925149,340110.5929,145386.0736,,243,W08,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+348,348,,,,,,,,341507,145362,,,AxeBrueIDB_structures+N,1,342,3.179121769,341503.8891,145362.6552,,244,W09,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+349,349,,,,,,,,340057,145392,,,AxeBrueIDB_structures+N,1,406,3.672607615,340055.5443,145388.6282,,245,W10,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+350,350,,,,,,,,340026,146084,,,AxeBrueIDB_structures+N,1,172,9.73603547,340035.669,146082.8595,,246,W11,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+351,351,,,,,,,,341533,145439,,,AxeBrueIDB_structures+N,1,342,10.2414528,341542.9885,145436.7381,,247,W12,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+352,352,,,,,,,,340099,145372,,,AxeBrueIDB_structures+N,1,406,2.127090213,340098.1496,145370.0503,,248,W13,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+353,353,,,,,,,,340830,145064,,,AxeBrueIDB_structures+N,1,405,8.498731797,340832.6694,145072.0686,,249,W14,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+354,354,,,,,,,,339736,146159,,,AxeBrueIDB_structures+N,1,172,6.907106524,339734.0452,146152.3753,,250,W15,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+355,355,,,,,,,,340177,145999,,,AxeBrueIDB_structures+N,1,400,7.433497847,340173.906,145992.241,,251,W16,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+356,356,,,,,,,,341023,145888,,,AxeBrueIDB_structures+N,1,677,13.48966803,341024.0201,145901.451,,252,W17,Bund,0,,,0,N,"Nearest Polyline, no name check",n/a
+357,357,,,,,,,,340895,144337,,,AxeBrueIDB_structures+N,1,1083,7.864513109,340892.4454,144329.5619,,253,W18,Valve (Inlet),2,,,0,N,"Nearest Polyline, no name check",n/a
+358,358,,,,,,,,341418,145858,,,AxeBrueIDB_structures+N,1,677,10.06435922,341418.8188,145868.031,,254,W19,Bund,0,,,0,N,"Nearest Polyline, no name check",n/a
+359,359,,,,,,,,341030,145715,,,AxeBrueIDB_structures+N,1,400,2.974615415,341030.6231,145717.9086,,255,W20,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+360,360,,,,,,,,341361,145644,,,AxeBrueIDB_structures+N,1,400,5.659181462,341361.976,145649.5744,,256,W21,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+361,361,,,,,,,,340821,145070,,,AxeBrueIDB_structures+N,1,307,5.630452517,340822.8823,145075.3065,,257,W22,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+362,362,,,,,,,,340820,145058,,,AxeBrueIDB_structures+N,1,406,4.276776147,340815.7235,145057.9514,,258,W23,Culvert,1,,,0.523999989,N,"Nearest Polyline, no name check",n/a
+363,363,,,,,,,,341414,144862,,,AxeBrueIDB_structures+N,1,405,7.972807831,341412.9294,144854.0994,,259,W24,Culvert,0,,,0.167999998,N,"Nearest Polyline, no name check",n/a
+364,364,,,,,,,,341405,144856,,,AxeBrueIDB_structures+N,1,405,5.435400884,341400.7889,144859.4366,,260,W25,Culvert,0,,,1.230999947,N,"Nearest Polyline, no name check",n/a
+365,365,,,,,,,,342247,144467,,,AxeBrueIDB_structures+N,1,404,5.080580298,342245.4226,144462.1705,,261,W26,Culvert,0,,,0.007,N,"Nearest Polyline, no name check",n/a
+366,366,,,,,,,,342238,144465,,,AxeBrueIDB_structures+N,1,404,3.676995269,342241.3565,144463.4986,,262,W27,Culvert,0,,,5.388000011,Y,"Nearest Polyline, no name check",n/a
+367,367,,,,,,,,341342,144434,,,AxeBrueIDB_structures+N,1,419,87.80509735,341389.4426,144507.8846,,263,W28,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+368,368,,,,,,,,338307,142553,,,AxeBrueIDB_structures+N,1,487,239.2628888,338355.9109,142787.2103,,264,XC01,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+369,369,,,,,,,,339767,141515,,,AxeBrueIDB_structures+N,1,41,0.414620466,339767.3978,141514.883,,265,XC02,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+370,370,,,,,,,,339911,141295,,,AxeBrueIDB_structures+N,1,187,5.1433921,339906.0555,141296.4165,,266,XC03,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+371,371,,,,,,,,339831,141017,,,AxeBrueIDB_structures+N,1,187,1.40751347,339829.6433,141017.3746,,267,XC04,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+372,372,,,,,,,,340033,141017,,,AxeBrueIDB_structures+N,1,355,5.015969434,340037.9214,141016.0306,,268,XC05,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+373,373,,,,,,,,340942,141062,,,AxeBrueIDB_structures+N,1,286,98.4928163,341036.2061,141033.259,,269,XC06,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+374,374,,,,,,,,340995,141052,,,AxeBrueIDB_structures+N,1,286,44.84222617,341038.4297,141040.8336,,270,XC07,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+375,375,,,,,,,,339574,140763,,,AxeBrueIDB_structures+N,1,368,13.16568833,339560.8607,140762.1668,,271,XC08,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+376,376,,,,,,,,339477,140544,,,AxeBrueIDB_structures+N,1,368,24.57431796,339501.1358,140539.3782,,272,XC09,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+377,377,,,,,,,,340931,140601,,,AxeBrueIDB_structures+N,1,170,3.330312128,340929.9333,140597.8452,,273,XC10,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+378,378,,,,,,,,339683,140365,,,AxeBrueIDB_structures+N,1,368,2.398640839,339684.0829,140367.1403,,274,XC11,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+379,379,,,,,,,,336646,141838,,,AxeBrueIDB_structures+N,1,322,2.003194732,336646.9748,141839.75,,275,XC12,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+380,380,,,,,,,,337148,141595,,,AxeBrueIDB_structures+N,1,322,2.388803394,337148.5783,141597.3178,,276,XC13,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+381,381,,,,,,,,339878,141190,,,AxeBrueIDB_structures+N,1,187,1.305833474,339876.7344,141190.3215,,277,XC14,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+382,382,,,,,,,,339860,141117,,,AxeBrueIDB_structures+N,1,187,2.958677427,339857.0768,141117.4568,,278,XC15,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+383,383,,,,,,,,340170,140849,,,AxeBrueIDB_structures+N,1,355,1.957671844,340168.1288,140849.5753,,279,XC16,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+384,384,,,,,,,,339834,146122,,,AxeBrueIDB_structures+N,1,172,0.156282363,339833.9542,146121.8506,,280,XW01,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+385,385,,,,,,,,340206,145974,,,AxeBrueIDB_structures+N,1,400,3.211720684,340207.3381,145976.9197,,281,XW02,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+386,386,,,,,,,,340204,145980,,,AxeBrueIDB_structures+N,1,400,1.409508755,340203.4128,145978.7186,,282,XW03,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+387,387,,,,,,,,340908,145733,,,AxeBrueIDB_structures+N,1,400,8.699684233,340909.3522,145741.594,,283,XW04,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+388,388,,,,,,,,340995,145716,,,AxeBrueIDB_structures+N,1,400,9.328140494,340996.9539,145725.1212,,284,XW05,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+389,389,,,,,,,,341554,145591,,,AxeBrueIDB_structures+N,1,400,1.100941767,341553.7759,145589.9221,,285,XW06,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+390,390,,,,,,,,341539,145486,,,AxeBrueIDB_structures+N,1,342,6.914881975,341532.2595,145487.5433,,286,XW07,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+391,391,,,,,,,,341521,145409,,,AxeBrueIDB_structures+N,1,342,6.684768548,341514.4865,145410.5034,,287,XW08,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+392,392,,,,,,,,341507,145350,,,AxeBrueIDB_structures+N,1,342,5.652312611,341501.469,145351.1649,,288,XW09,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+393,393,,,,,,,,340862,145344,,,AxeBrueIDB_structures+N,1,203,0.477438371,340862.1246,145344.4609,,289,XW10,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+394,394,,,,,,,,341056,145296,,,AxeBrueIDB_structures+N,1,203,3.839612478,341054.9853,145292.2969,,290,XW11,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+395,395,,,,,,,,340142,145364,,,AxeBrueIDB_structures+N,1,406,7.572200832,340145.0465,145370.9323,,291,XW12,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+396,396,,,,,,,,340236,145325,,,AxeBrueIDB_structures+N,1,406,5.457414007,340238.1957,145329.9962,,292,XW13,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+397,397,,,,,,,,340504,145192,,,AxeBrueIDB_structures+N,1,406,0.93576657,340504.3741,145192.8577,,293,XW14,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+398,398,,,,,,,,340571,145181,,,AxeBrueIDB_structures+N,1,406,2.51537508,340572.0048,145183.306,,294,XW15,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+399,399,,,,,,,,340662,145141,,,AxeBrueIDB_structures+N,1,406,2.835427898,340663.1326,145143.5994,,295,XW16,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+400,400,,,,,,,,340788,145069,,,AxeBrueIDB_structures+N,1,406,0.149357974,340787.9454,145068.861,,296,XW17,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+401,401,,,,,,,,340925,145021,,,AxeBrueIDB_structures+N,1,405,1.019720066,340925.3225,145021.9674,,297,XW18,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+402,402,,,,,,,,341017,145004,,,AxeBrueIDB_structures+N,1,405,5.649157668,341018.9085,145009.317,,298,XW19,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+403,403,,,,,,,,341077,144985,,,AxeBrueIDB_structures+N,1,405,4.416194449,341078.4105,144989.1849,,299,XW20,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+404,404,,,,,,,,341159,144960,,,AxeBrueIDB_structures+N,1,405,2.744438183,341159.4785,144962.7024,,300,XW21,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+405,405,,,,,,,,341481,145264,,,AxeBrueIDB_structures+N,1,342,2.022509151,341482.975,145263.5643,,301,XW22,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+406,406,,,,,,,,341384,145033,,,AxeBrueIDB_structures+N,1,342,48.25259955,341431.0852,145022.4501,,302,XW23,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+407,407,,,,,,,,341283,144899,,,AxeBrueIDB_structures+N,1,405,0.384419422,341283.1235,144899.364,,303,XW24,Culvert,0,,,0.381999999,N,"Nearest Polyline, no name check",n/a
+408,408,,,,,,,,341372,144675,,,AxeBrueIDB_structures+N,1,419,0.253344301,341371.7529,144675.056,,304,XW25,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+409,409,,,,,,,,341332,144535,,,AxeBrueIDB_structures+N,1,419,10.38481316,341340.6915,144540.6835,,305,XW26,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+410,410,,,,,,,,342103,144066,,,AxeBrueIDB_structures+N,1,419,1.95092153,342104.8449,144065.3657,,306,XW27,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+411,411,,,,,,,,333039,150549,,,AxeBrueIDB_structures+N,1,308,4.301246841,333037.0626,150545.1598,,307,BK03,Spillway,0,,,0,N,"Nearest Polyline, no name check",n/a
+412,412,,,,,,,,333279,150787,,,AxeBrueIDB_structures+N,1,291,0.726259094,333278.2746,150786.9656,,308,BK05,Screen,0,,,0,N,"Nearest Polyline, no name check",n/a
+413,413,,,,,,,,333271,150733,,,AxeBrueIDB_structures+N,1,291,0.691589449,333270.5176,150733.4956,,309,BK04,Outlet,0,,,0,N,"Nearest Polyline, no name check",n/a
+414,414,,,,,,,,348846,140975,,,AxeBrueIDB_structures+N,1,410,0.721239372,348846.5163,140975.5036,,310,UB93,Tilting Weir,0,,,0.203999996,N,"Nearest Polyline, no name check",n/a
+415,415,,,,,,,,346735,141497,,,AxeBrueIDB_structures+N,1,303,0.581002061,346734.8122,141497.5498,,311,UB94,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+416,416,,,,,,,,347318,141374,,,AxeBrueIDB_structures+N,1,303,0.054389196,347318.0146,141374.0524,,312,UB95,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+417,417,,,,,,,,349340,141265,,,AxeBrueIDB_structures+N,1,75,298.4134593,349067.9621,141142.3379,,313,UB96,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+418,418,,,,,,,,349198,140828,,,AxeBrueIDB_structures+N,1,75,0.461448065,349198.4264,140828.1764,,314,UB97,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+419,419,,,,,,,,348477,141144,,,AxeBrueIDB_structures+N,1,410,0.443320628,348477.1511,141144.4168,,315,UB98,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+420,420,,,,,,,,349329,139386,,,AxeBrueIDB_structures+N,1,1090,3.427119303,349325.8147,139387.2646,,316,UB99,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+421,421,,,,,,,,349304,140646,,,AxeBrueIDB_structures+N,1,78,1.178419265,349302.9316,140646.4971,,317,UB100,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+422,422,,,,,,,,344418,144671,,,AxeBrueIDB_structures+N,1,25,0.224271023,344418.2131,144670.9301,,318,XUB01,Culvert,1,,,0,N,"Nearest Polyline, no name check",n/a
+423,423,,,,,,,,344822,143179,,,AxeBrueIDB_structures+N,1,416,0.319467207,344821.9457,143179.3148,,319,UB101,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+424,424,,,,,,,,346171,143706,,,AxeBrueIDB_structures+N,1,416,0.186527921,346171.0167,143705.8142,,320,UB103,Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+425,425,,,,,,,,346345,144766,,,AxeBrueIDB_structures+N,1,294,0.15086722,346345.0442,144766.1442,,321,UB104,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+426,426,,,,,,,,346311,144751,,,AxeBrueIDB_structures+N,1,1127,3.076698122,346311.4711,144754.0404,,322,UB105,Culvert,0,,,0,N,"Nearest Polyline, no name check",n/a
+427,427,,,,,,,,346311,144746,,,AxeBrueIDB_structures+N,1,1127,8.017729053,346312.2277,144753.9232,,323,UB106,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+428,428,,,,,,,,334139,142531,,,AxeBrueIDB_structures+N,1,168,0.307278654,334138.6928,142531.0067,,324,H43,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+429,429,,,,,,,,339758,153384,,,AxeBrueIDB_structures+N,1,341,1.322620945,339758.2432,153382.6999,,325,BA05,Flap valve,0,,,0,N,"Nearest Polyline, no name check",n/a
+430,430,,,,,,,,333746,143809,,,AxeBrueIDB_structures+N,1,1050,87.76785466,333769.9201,143893.4454,,326,H44 (EA),Penstock,0,,,0,N,"Nearest Polyline, no name check",n/a
+431,431,,,,,,,,340852,140217,,,AxeBrueIDB_structures+N,1,389,0.184284279,340851.9655,140216.819,,327,UB107,Tilting Weir,0,,,0,N,"Nearest Polyline, no name check",n/a
+432,432,,,,,,,,349074,143250,,,AxeBrueIDB_structures+N,1,338,7.772107222,349081.6657,143251.2817,,328,UB108,Valve (Inlet),0,,,-1,N,Site outside snap distance,n/a
+433,433,,,,,,,,347183,144464,,,AxeBrueIDB_structures+N,1,175,84.90445163,348145.0456,143527.4616,,158,UB13,Stoplogs,1,0,0,0.112999998,N,"Nearest Polyline, no name check",n/a

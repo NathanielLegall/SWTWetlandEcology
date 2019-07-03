@@ -96,43 +96,103 @@ A bounding box was set encompassing the majority of the legacy Brue Valley Livin
 
 ![The bounding box for barrier analysis surrounding the Brue Valley Living Landscape with the Somerset Wildlife Trust Avalon Marshes reserves highlighted in white. Extents of bounding box - Top: 157637.238462m Left: 324758.957958m, Right: 354758.957958m, Bottom: 127637.238462m) Credit: Source: Esri](WetHabitats_BoundingBoxLQ.jpg)
 
-Known water control structures as managed by the Environment Agency and Somerset Internal Drainage Board were plotted as a point layer in ArcMap. 
+#Data preparation
 
-The base layer is a merge of 'AxeBrueIDB_structures' and structures from the Internal Drainage Board management plans for the North Drain and South Drain.
-https://www.arcgis.com/apps/View/index.html?appid=22497f115856472eb9e58fdba3023191<u5:p></u5:p>
-http://somersetdrainageboards.gov.uk/environment/wlmps/[IDB2010] [Brue2010]
+The 'Open Rivers' layer on the Somerset Wildlife Trust S drive was used to form the majority of the underlying river network. The line layer shows most of the EA 'main rivers' and streams throughout Somerset including the River Brue, Huntspill, North Drain and South Drain. 
+- see S:\GIS\Layer Library\Environmental or contact the Somerset Environmental Records Centre
+This was merged with the IDB viewed rhynes line layer using the 'Merge' tool to include detail of smaller arterial waterways, ditchers and 'rhynes' (local term for dicthes). The [FIPEX quality control tool](http://www.rivex.co.uk/Online-Manual/Qualitycontrolyourrivernetwork.html) was used to identify topology issues with the river network. The following network aspects were checked;
+- Polyline attributes
+- Zero (null) length polylines
+- Multi-part polylines
+- Self-intersecting polylines
+- Disconnected polylines
+- Intersecting polylines
+- Find cycles
+The resulting error log file 'intersections.txt' was used to identify and rectify false intersections within the river network. The 'Topology' tool within ArcMap was used to highlight and fix gaps within the river network. 
+- see toolboxes\system toolboxes\data management tools.tbx\topology\add rule to topology
 
+!['Must not have gaps' and 'Must not overlap' were set as the topology rules. 1209 topology errors were identified - each error was highlighted as a red square in a new layer. Topology errors were manually resolved using the 'Error Inspector' and 'Topology' toolbar with reference to satellite imagery.](AxeBrue_Topology_errors.jpg)
+
+'Must not have gaps' and 'Must not overlap' were set as the topology rules. 1209 topology errors were identified - each error was highlighted as a red square in a new layer. Topology errors were manually resolved using the 'Error Inspector' and 'Topology' toolbar with reference to satellite imagery. 
+
+![Alt text](AxeBrue_Topology_errors_East_of_Bridgewater_Bay.jpg)
+
+In GIS, nodes represent the beginning and end of an edge. The nodes are an important component of a network representing a river system because they denote the locations where rivers, streams and ditches connect to each other. The 'From node' and 'To node' were only present for the IDB viewed rhynes data ('STARTNODE' and 'ENDNODE'). New nodes were created using RivEX following the 'Building nodes for the first time' [protocol](http://www.rivex.co.uk/Online-Manual/Buildingnodesforthefirsttime.html). The following [attributes](http://www.rivex.co.uk/Online-Manual/Attributerivernetwork.html) were added to the river network;
+- Strahler order
+- Distance to mouth
+- Upstream Accumulated Length
+- Catchment ID
+In order to represent the movement of European Eels leaving the Brue Valley river system towards the coast, the [Re-orientate a network to flow to mouth protocol](http://www.rivex.co.uk/Online-Manual/Reorientateanetworktoflowtomouth.html) was followed using RivEX. By adding arrows to the polylines users can visualise a theoretical 'flow' of mature eels migrating to the sea (layer = AxeBrueIDB_viewedrhynes_singlepart_topo). A duplicate layer was produced showing a flipped direction of migration into the Brue System using the 'Flip line' function in ArcToolbox (layer = AxeBrueIDB_viewedrhynes_singlepart_flipped). 
+- toolboxes\system toolboxes\editing tools.tbx\flip line
+
+![The resulting line layer 'AxeBrueIDB_viewedrhynes_topo' represnting European Eel miragtion towards the sea ](AxeBrueIDB_viewedrhynes_topo.jpg)
 
 ```{r echo = FALSE, results = 'asis'}
-points <- read.csv(file = "WaterStructureAnalysisFiles.csv", header = TRUE)
+points <- read.csv(file = "AxeBrueIDB_viewedrhynes_singlepart_topo.csv", header = TRUE)
 library(knitr)
-kable(points, caption = "Water Control structure data and sources", row.names = TRUE, format = 'html')
+kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrueIDB_viewedrhynes_singlepart_topo.csv' attribute table for polyline layer of river system representing migration towards the coast", row.names = TRUE)
 
 ```
-The locations of water control structures from all three sources were viewed as points in ESRI ArcMap (v. 10.6). 
+Known water control structures as managed by the Environment Agency and Somerset Internal Drainage Board were plotted as a point layer in ArcMap. The base layer used during geographic information system analysis is a merge of ['AxeBrueIDB_structures'](https://www.arcgis.com/apps/View/index.html?appid=22497f115856472eb9e58fdba3023191) and structures from the Somerset Internal Drainage Board water level [management plans](http://somersetdrainageboards.gov.uk/environment/wlmps/) (WLMPs) for the North Drain and South Drain. Structure management information showing when structures were open or closed was only available for 24% of the final dataset (N = 103). 
 
+```{r echo = FALSE, results = 'asis'}
+sources <- read.csv(file = "WaterStructureAnalysisFiles.csv", header = TRUE)
+library(knitr)
+kable(sources, caption = "Water Control structure data and sources", row.names = TRUE, format = 'html')
+
+```
+
+The locations of water control structures from all three sources were viewed as point layers in ESRI ArcMap (v. 10.6) before being merged using the 'Merge' tool in ArcToolbox. The field map was left unchanged. 
+
+![Alt text](Capture_MergeTool.jpg)
+
+```{r echo = FALSE, results = 'asis'}
+points <- read.csv(file = "AxeBrue_IDB_merged_140219_Snapped.csv", header = TRUE)
+library(knitr)
+kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_merged_140219_Snapped.csv' table which shows all structures included in the analysis", row.names = TRUE)
+
+```
+
+The RivEX [snapping sites to network tool](http://www.rivex.co.uk/Online-Manual/Snapsitestonetwork.html) was used to ensure that the point layer overlapped the polyline layer. A snapping tolerance of 20m was used. 
 
 #RivEX analysis
 
-Barrier analysis was carried out using a river network tool RivEX (v 10.28) with ESRI ArcMap (v. 10.6) following the ['Distances between dams worked example'](http://www.rivex.co.uk/Online-Manual/Distancesbetweendamsaworkedexamp.html)
+Barrier analysis was carried out using a river network tool RivEX (v 10.28) with ESRI ArcMap (v. 10.6). Following the ['Distances between dams worked example'](http://www.rivex.co.uk/Online-Manual/Distancesbetweendamsaworkedexamp.html) the amount of  habitat available for each water control structure was calculated and added as a seperate column to the point layer's attribute table. This was then visualised in ArcMap by changing the layer symbology using a colour gradient with 10 natural breaks to allow users to prioritise structures by showing the amount of potential habitat that would be opened up if a fish pass was added.
 
 
+```{r echo = FALSE, results = 'asis'}
+points <- read.csv(file = "AxeBrue_IDB_DS_160219.csv", header = TRUE)
+library(knitr)
+kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_DS_160219' attribute table  showing the additional column for 'AvailDSnet showing the amount of available habitat in a 'downstream' or Westerly direction", row.names = TRUE)
 
-see pg. 83 for analysis step by step for RivEX
-
-
-
+```
+A draft version of the map was sent out to project partners and potential users for feedback including the Environment Agency, Sustainable Eel Group, Westcountry Rivers Trust and Somerset Wildlife Trust. 
 
 
 # Results
 
 The resulting habitat maps can be viewed on [ArcGIS online](http://arcg.is/8qavW).
-The final layer used during analysis included 433 water control structures within the study area. 
-Stream and downstream habitat availability of water control structures managed by the Internal Drainage Board and Environment Agency. 
+The final layers used during analysis included 433 water control structures within the study area. Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. 
 
-Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. 
 
-These layers do not account for the quality of 'available habitat' upstream/downstream. Habitat availability is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see [Buddendorf2017a][Cote2009][Grill2014][Sheer2006]). At this point the layers also fail to account for the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. SWT plans to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
+
+[R plot of structure by type]
+
+[Structure density by catchment]
+
+[maximum and minumum habitat available upstream]
+
+[maximum and minumum habitat available downstream]
+
+[standard deviation]
+
+[top 10 strutcures by available habitat in upstream direction]
+
+[top 10 strutcures by available habitat in upstream direction]
+
+These layers do not account for the quality of 'available habitat' upstream/downstream. 'Habitat availability' is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see Buddendorf, 2017; Cote, 2009; Grill2014; Sheer2006). 
+
+The layers also fail to account for the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. SWT plans to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
 
 [additional text available on pop-up box]
 
@@ -144,7 +204,7 @@ These layers do not account for the quality of 'available habitat' upstream/down
 #Structure assessment surveys
 
 Individual passability scores for each barrier have not been included due to a lack of data. Local stakeholders do not hold information on the following aspects of water control structures needed for barrier assessments;
-- Management, Management of structures has the greatest effect on fish permeability. [Piper2013] found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels.
+- Management, Management of structures has the greatest effect on fish permeability. [Piper2013] found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels. Management information was only available for a minority of the full structure dataset. 
 - Material
 - Aspect/Gradient
 These features cannot be infered from satellite imagery and require surveys on the ground. There are several protocols available for assessing the permeability of water control structures to fish. 
@@ -186,7 +246,7 @@ The 'passability' of barriers was informed by the [Scottish Obstacles to Fish Mi
 
 Attempts were made to apply FIPEX to the Brue Valley Eel system however the plug-in is no longer supported and doesn't function with ArcMap 10.6 [what year did this end? what version of ArcMap DOES it work with?]. In order to make use of the underlying R code we also contacted the authors of the Scottish barrier map. We were unable to obtain the underlying R code for calculating DCI through data mining the original plug-in or contacting FIPEX's authors [refer to FIPEX manual- why doesn't the FIPEX manual come up in the mendeley search?]
 
-[Mahlum2014a] demonstrated that the DCI has biological relevance with regards to understanding fish communities and individual species distribution and abundance, even in the presence of confounding variables such as elevation, stream width, and land cover.
+[Mahlum2014a] demonstrated that the DCI produced by FIPEX shows biological relevance with regards to understanding fish communities and individual species distribution and abundance, even in the presence of confounding variables such as elevation, stream width, and land cover.
 
 For a more detailed review of connectivity modelling studies for riverine systems please see  [Fullerton2010].
 
