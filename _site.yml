@@ -4,5 +4,3 @@ navbar:
   left:
     - text: "SWT Eel Habitat Map"
       href: EelHabitatMapMardown.html
-    - text: "About"
-      href: about.html
