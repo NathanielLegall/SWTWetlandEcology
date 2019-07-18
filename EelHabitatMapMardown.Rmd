@@ -103,7 +103,7 @@ A bounding box was set encompassing the majority of the legacy Brue Valley Livin
 
 The 'Open Rivers' layer on the Somerset Wildlife Trust S drive was used to form the majority of the underlying river network. The line layer shows most of the EA 'main rivers' and streams throughout Somerset including the River Brue, Huntspill, North Drain and South Drain. 
 - see S:\GIS\Layer Library\Environmental or contact the Somerset Environmental Records Centre
-This was merged with the IDB viewed rhynes line layer using the 'Merge' tool to include detail of smaller arterial waterways, ditchers and 'rhynes' (local term for dicthes). The [FIPEX quality control tool](http://www.rivex.co.uk/Online-Manual/Qualitycontrolyourrivernetwork.html) was used to identify topology issues with the river network. The following network aspects were checked;
+This was merged with the IDB viewed rhynes line layer using the 'Merge' tool to include detail of smaller arterial waterways, ditchers and 'rhynes' (local term for dicthes). The [RivEX quality control tool](http://www.rivex.co.uk/Online-Manual/Qualitycontrolyourrivernetwork.html) was used to identify topology issues with the river network. The following network aspects were checked;
 - Polyline attributes
 - Zero (null) length polylines
 - Multi-part polylines
@@ -114,9 +114,9 @@ This was merged with the IDB viewed rhynes line layer using the 'Merge' tool to 
 The resulting error log file 'intersections.txt' was used to identify and rectify false intersections within the river network. The 'Topology' tool within ArcMap was used to highlight and fix gaps within the river network. 
 - see toolboxes\system toolboxes\data management tools.tbx\topology\add rule to topology
 
-!['Must not have gaps' and 'Must not overlap' were set as the topology rules. 1209 topology errors were identified - each error was highlighted as a red square in a new layer. Topology errors were manually resolved using the 'Error Inspector' and 'Topology' toolbar with reference to satellite imagery.](AxeBrue_Topology_errors.jpg)
+!['Must not have dangles' and 'Must not overlap' were set as the topology rules. 1209 topology errors were identified - each error was highlighted as a red square in a new layer. Topology errors were manually resolved using the 'Error Inspector' and 'Topology' toolbar with reference to satellite imagery.](AxeBrue_Topology_errors.jpg)
 
-'Must not have gaps' and 'Must not overlap' were set as the topology rules. 1209 topology errors were identified - each error was highlighted as a red square in a new layer. Topology errors were manually resolved using the 'Error Inspector' and 'Topology' toolbar with reference to satellite imagery. 
+A screenshot showing the workflow for resolving a layer error highlighted by the 'Must not have dangles' rule is shown below.
 
 ![Alt text](AxeBrue_Topology_errors_East_of_Bridgewater_Bay.jpg)
 
@@ -163,7 +163,7 @@ The RivEX [snapping sites to network tool](http://www.rivex.co.uk/Online-Manual/
 
 #RivEX analysis
 
-Barrier analysis was carried out using a river network tool RivEX (v 10.28) with ESRI ArcMap (v. 10.6). Following the ['Distances between dams worked example'](http://www.rivex.co.uk/Online-Manual/Distancesbetweendamsaworkedexamp.html) the amount of  habitat available for each water control structure was calculated and added as a seperate column to the point layer's attribute table. This was then visualised in ArcMap by changing the layer symbology using a colour gradient with 10 natural breaks to allow users to prioritise structures by showing the amount of potential habitat that would be opened up if a fish pass was added.
+Barrier analysis was carried out using a river network tool RivEX (v 10.28) with ESRI ArcMap (v. 10.6). RivEX is an ESRI ArcGIS 10.6 tool for processing vector river networks. It has tools for quality control, stream ordering, sampling and site linking. Following the ['Distances between dams worked example'](http://www.rivex.co.uk/Online-Manual/Distancesbetweendamsaworkedexamp.html) the amount of  habitat available for each water control structure was calculated and added as a seperate column to the point layer's attribute table. This was then visualised in ArcMap by changing the layer symbology using a colour gradient with 10 natural breaks to allow users to prioritise structures by showing the amount of potential habitat that would be opened up if a fish pass was added.
 
 
 ```{r echo = FALSE, results = 'asis'}
@@ -238,28 +238,85 @@ ggplot(Top10US, aes(x=AvailUSNet)) + geom_histogram(binwidth = 1000) +
   xlab("AvailUSNet(m)")
 ```
 
+[Range of habitat availability in upstream and downstream directions]
+
 The resulting habitat maps can be viewed on [ArcGIS online](http://arcg.is/8qavW). Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. These layers do not account for the quality of 'available habitat' upstream/downstream. 'Habitat availability' is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see Buddendorf, 2017; Cote, 2009; Grill, 2014; Sheer, 2006). The layers also do not include information on the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. Somerset Wildlife Trust would like to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
 
 # Discussion
 
-River regulation, in the form of damns or levees, restricts both the lateral connectivity between the river and the floodplain and the temporal and spatial variance in connectivity in the main stem of the river (Ward & Stanford, 1995; Kingsford, 2000). A number of GIS tools and software packages exist for assessing the impact of water control structures on river system connectivity. 
+Culverts, tilting Weirs and Penstocks are the most frequently found types of water control structures in the study area. Culverts create problems with blockage of eel passage and interrupting gravel movement (EA, 2010). Culverts are effectively large pipes used to connect bodies of water together that are seperated by paths or roads. Depsite their abundance in the Brue Valley area, due to the longitudinal profile of European Eel culverts are not thought to present a major abstacle. However, flap valves can be fitted to one culvert end to prevent the back flow of water when pressure is greatest on the exit side of the valve. Unless set open these flap valves should be judged as detrimental to the passage of European Eel. 
 
-# NATIONAL INVENTORY AND ASSESSMENT PROCEDURE—For Identifying Barriers to Aquatic Organism Passage at Road-Stream Crossings
+When prioritisng the installation of eel passes on tilting weirs, their operation must must be assessed along with their structure (EA, 2010). For example, a penning weir would only obstruct eel passage during Winter months. Throughout spring and summer, it is flat. The migration season (90% of the run) for silver eels heading back to the coast generally lasts from 1st August to 30th November (Sandlund **et al**, 2017) and the IDB aims to achieve Winter levels in the Main Drain by 1st December (see WLLMPs for South Drain and North Drain). Management information was only available for 12% (n=53) of water control structures so the factor was not included in the barrier analsysis. This information could be collected with local input from groundsmen at the Environment Agency (pers comms, L. Timothy). The Internal Drainage Board generally control smaller structure which require regular adjustment to maintain water levels in local land areas over Winter and Summer seasons (pers comms. P. Brewin). For these smaller more variable structures an average height or position for the structure could be used.
+[Comment]: More information is better than not enough
+
+In-river structures such as penstocks generally fall into two categories; undershot - where surplus water passes under the structure, or overshot - where water weirs over a facet of the structure. Sometimes a structure can be both overhsot and undershot. 
+
+The Eel Manual mentions 'Available Habitat to next barrier' as a valid priotisation strategy and was used to create the eel habitat map. The Eels (England and Wales) Regulations 2009 Statutory Instrument (SI) came into force on 15 January 2010 and supports Council Regulation (EC) No 1100/2007, which requires Member States to develop Eel Management Plans (EMPs) for each river basin district, with the objective of permitting the escapement to the sea of at least 40 % of the historic silver eel biomass. It was therefore essential that accepted criteria for barrier prioritisation be developed, and a standard process, by which barriers may be assessed and prioritised for eel passage and screening. Including 'Available Habitat to next barrier', a list of factors to be taken into consideration when formulating a prioritisation strategy for eel passage solutions is presented in the Eel Manual (EA, 2010);
+- Upstream Productivity
+- Distance to next barrier
+- Available Habitat to next barrier
+- Distance from head of tide
+- WFD status
+- Altitude
+- Escapement potential
+- Passability
+- Structure Futures 
+- Commercial fishery operation
+- Parasitic status
+- Pesticide status
+- Silver eel escapement compliance
+- Geographical location and spread
+- Designation (SAC, SSSI) 
+- Elver pass present
+- Ownership (EA)
+- Predator status
+- Recreational benefit
+- Number of barriers below
+- Head drop
+- Upstream/downstream eel population
+- Obstruction type
+- River Flow conditions & 
+- Hydropower potential
+
+
+
+#Structure assessment surveys
+
+A major issue identified by this map is the lack of individual 'permeability' or 'passability' scores for each barrier. You need to explain why these haven't been included yet in detail, provide explanations for why you haven't used other tools and what your solution is (ZSL eel assessment). Two or three examples of Species specific connectivity software + studies to look at effect of barriers would be good as well. 
+
+Individual passability scores for each barrier have not been included due to a lack of data. Local stakeholders do not hold information on the following aspects of water control structures needed for barrier assessments;
+- Management, Management of structures has the greatest effect on fish permeability. Piper (2013) found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels. Management information was only available for a subset of the full structure dataset. 
+- Material
+- Aspect/Gradient
+These features cannot be infered from satellite imagery and require surveys on the ground. There are several protocols available for assessing the permeability of water control structures to fish. 
+
+A more condensed list of factors for prioritisation on a catchment-based approach has recently been presented by ZSL;
+
+```{r echo = FALSE, results = 'asis'}
+ZSLPri <- read.csv(file = "ZSL_StructurePriorities.csv", header = TRUE)
+library(knitr)
+kable(head(ZSLPri), caption = "Factors to consider when considering catchment level barrier prioritisation taken from 'A Field Guide for Assessing the Passability of Man-Made River Structures by European Eels", row.names = TRUE)
+
+```
+The factors presented within the Eel Manual or the ZSL field guide are more easily formulatable into  indices than those presented in the eel manual. These indices can then be combined together in order to produce a final passability score for individual structures. Installation of any future eel passes on Environment Agency managed structures will most likely only take place during capital works and refurbishments (pers comms, M. Pang). 
+
+River regulation, in the form of damns or levees, restrict both the lateral connectivity between the river and the floodplain and the temporal and spatial variance in connectivity in the main stem of the river (Ward & Stanford, 1995; Kingsford, 2000). A number of GIS tools and software packages exist for assessing the impact of water control structures on river system connectivity. 
+
+
+
 #The Vermont Culvert Aquatic Organism Passage Screening Tool
 
-[Kirn2009] The Vermont Culvert Aquatic Organism Passage Screening Tool consists of three components; the coarse screen, the retrofit potential screen and habitat connectivity potential screen. The aquatic organism passage coarse screen characterizes the expected level of aquatic organism passage based on a set of physical measures of the culvert and adjacent stream during low flow conditions. This first level of screen is useful at the watershed and subwatershed scales to observe regional conditions and to begin to identify structures having the most impact on species of interest. The aquatic organism passage retrofit potential screen identifies the likelihood of improving passage via structural changes at a culvert. The aquatic organism passage habitat connectivity potential screen indicates the amount of habitat that would be re-connected if passage were to be improved at a structure (for example, through installation of a fish pass). This screen is best applied at the subwatershed and local catchment scales to realize the potential gains in habitat due to changes at a specific structure or set of structures.
+The Vermont Culvert Aquatic Organism Passage Screening Tool (Kirn2009) consists of three components; the coarse screen, the retrofit potential screen and habitat connectivity potential screen. The aquatic organism passage coarse screen characterizes the expected level of aquatic organism passage based on a set of physical measures of the culvert and adjacent stream during low flow conditions. This first level of screen is useful at the watershed and subwatershed scales to observe regional conditions and to begin to identify structures having the most impact on species of interest. The aquatic organism passage retrofit potential screen identifies the likelihood of improving passage via structural changes at a culvert. The aquatic organism passage habitat connectivity potential screen indicates the amount of habitat that would be re-connected if passage were to be improved at a structure (for example, through installation of a fish pass). This screen is best applied at the subwatershed and local catchment scales to realize the potential gains in habitat due to changes at a specific structure or set of structures.
 
 # SNIFFER
 
-[The WFD111 (2a) Coarse resolution rapid-assessment methodology to assess obstacles to fish migration](https://www.sniffer.org.uk/wfd111-phase-2a-fish-obstacles-manual-pdf) (commonly known as the SNIFFER method) was been developed to help prioritise the removal or mitigation of man-made in-river structures that impede the migration of fish populations. It has been designed to provide a procedure for rapidly assessing at a coarse level the likely passability of obstacles. The methodology is based on published data describing the swimming and leaping abilities of different fish species. The method was tested against real fish population data. 
-
-
-SNIFFER has been used for minor assessments of natural obstructions across Devon by the [Westcountry Rivers Trust](http://wrt.org.uk/sniffing-out-weirs/) to moderate success (pers comms. S. West). 
+[The WFD111 (2a) Coarse resolution rapid-assessment methodology to assess obstacles to fish migration](https://www.sniffer.org.uk/wfd111-phase-2a-fish-obstacles-manual-pdf) (commonly known as the SNIFFER method) was been developed to help prioritise the removal or mitigation of man-made in-river structures that impede the migration of fish populations. It has been designed to provide a procedure for rapidly assessing at a coarse level the likely passability of obstacles. The methodology is based on published data describing the swimming and leaping abilities of different fish species. The method was tested against real fish population data. SNIFFER has been used for minor assessments of natural obstructions across Devon by the [Westcountry Rivers Trust](http://wrt.org.uk/sniffing-out-weirs/) to moderate success (pers comms. S. West). 
 
 [WHo else has used SNIFFER?]
 [SNIFFER, 2011][Bull]
 
 [Why didn't you use it?]
+
 #FishXing
 
 FishXing is a software designed to assist engineers, hydrologists and fish biologists in the evaluation and design of culverts for fish passage [FishXing2006] .The software requires the following inputs;
@@ -295,15 +352,7 @@ Attempts were made to apply FIPEX to the Brue Valley Eel system however the plug
 
 For a more detailed review of connectivity modelling studies for riverine systems please see  [Fullerton2010].
 
-#Structure assessment surveys
 
-A major issue identified by this map is the lack of individual 'permeability' or 'passability' scores for each barrier. You need to explain why these haven't been included yet in detail, provide explanations for why you haven't used other tools and what your solution is (ZSL eel assessment). Two or three examples of Species specific connectivity software + studies to look at effect of barriers would be good as well. 
-
-Individual passability scores for each barrier have not been included due to a lack of data. Local stakeholders do not hold information on the following aspects of water control structures needed for barrier assessments;
-- Management, Management of structures has the greatest effect on fish permeability. Piper (2013) found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels. Management information was only available for a subset of the full structure dataset. 
-- Material
-- Aspect/Gradient
-These features cannot be infered from satellite imagery and require surveys on the ground. There are several protocols available for assessing the permeability of water control structures to fish. 
 
 
 # Recommendations
@@ -314,3 +363,5 @@ These features cannot be infered from satellite imagery and require surveys on t
 - Collect data from Environment Agency and IDB groundsmen on individual structure management
 
 # References
+
+Environment Agency Eel Manual, Eel and Elver Passes: Manual for the Design and Implementation of Passage Solutioins, and Monitoring Eel and Elver Populations Available from: https://www.gov.uk/government/publications/eel-and-elver-passes-design-and-build
