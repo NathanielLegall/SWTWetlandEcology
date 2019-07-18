@@ -1,9 +1,18 @@
 ---
 title: "R Notebook for Eel Habitat Map"
 author: "Nathaniel Legall"
-output: word_document
-
+output:
+  html_document:
+    df_print: paged
 ---
+
+**Verion: 1.0**
+
+**Date: **
+
+**Authored by: Nathaniel Legall**
+
+**Checked by: **
 
 This document has been written as technical guidance for the eel habitat map produced as part of the Brue Valley Eel project.
 
@@ -23,24 +32,18 @@ We would like to thank the Somerset Internal Drainage Board for providing the ba
 
 The European Eel (*Anguilla anguilla*) is a long, narrow fish with a complex lifecycle that encompasses living in both fresh and sea water. Thought to spawn in the Sargasso Sea, European Eels enter the Brue Valley via the Svern Estuary as glass eels. They then spend up to 20 years (possibly longer) in the valley's freshwater system before migrating back out to sea to return to their spawning grounds. The European Eel is currently classified as critically endangered.
 
-![Alt text](Eel-life-cycle.png)
+![**Figure 1: The European Eel life cycle**](Eel-life-cycle.png)
 
 European Eel numbers have declined in Somerset, in line with national trends, but they remain relatively common across the Levels. The local rivers still support strong commercial fisheries.The River Brue runs adjacent to the River Pattett which supports the second largest commercial glass eel fishery in the UK. This is thought to be primarily due to restricted access for eels into and within the catchment - due to flood and water level sluices acting as barriers. The Somerset Wildlife Trust nature reserves Catcott, Westhay Moor and Westhay Heath represent excellent potential habitat to improve eel productivity. However, access in and out is restricted due to blockages and sluices in, out and between the wetlands, and to the waterways to the Brue. 
 
-Diadromous species like Atlantic salmon (*Salmo salar*), European eel (*Anguilla anguilla*) and migratory Brown trout (*Salmo trutta*, sea trout) are particularly sensitive to barriers, as juvenile and adult life stages must make extensive migrations across the freshwater environment (e.g., Thorstad et al., 2010). Barriers placed lower in a river network mostly affect diadromous fishes (Cote, 2009; Fullerton, 2010). Barriers are therefore a potentially important constraint on production and population persistence where access to and from spawning and rearing habitats is limited (Holbrook, Kinnison & Zydlewski 2011; Brown et al. 2013), prevented (Gephard & McMenemy 2004), or delayed (Venditti, Rondorf & Kraut 2000; Anon 2009; Nyqvist et al. 2017a)
+Diadromous species like Atlantic salmon (*Salmo salar*), European eel (*Anguilla anguilla*) and migratory Brown trout (*Salmo trutta*, sea trout) are particularly sensitive to barriers, as juvenile and adult life stages must make extensive migrations across the freshwater environment (e.g., Thorstad et al., 2010). Barriers placed lower in a river network mostly affect diadromous fishes (Cote, 2009; Fullerton, 2010). Barriers are therefore a potentially important constraint on production and population persistence where access to and from spawning and rearing habitats is limited (Holbrook, Kinnison & Zydlewski 2011; Brown et al. 2013), prevented (Gephard & McMenemy 2004), or delayed (Venditti, Rondorf & Kraut 2000; Anon 2009; Nyqvist et al. 2017)
 
-![Alt text](Capture_OurNation'sFisheriespg.66.jpg)
+![**Figure 2: Comparison of European Eel data from 19 indicator rivers and the River Severn. Taken from pg. 66 of 'Our Nation's Fisheries', Environment Agency**](Capture_OurNation'sFisheriespg.66.jpg)
 
 Otter (*Lutra lutra*) and mink (Mustela spp.) also take eel. Although there is no available information on the likely levels of eel predation by other species, [@Miranda2008] found that otter diet was dominated by eel in the Somerset Levels, (28% of the food biomass annually and 56% in Autumn). Despite this preference, populations of these mammals are much lower than those of fish-eating birds and they are likely to contribute a very small proportion of silver eel mortality [@Defra2010]. 
 
-#Cultural value of European Eel in South West/Somerset?
-There is evidence from the Domesday Book (Anon. 1086) of extensive eel fisheries in the Thames, which persisted up until the end of the 19th century [Defra2010].
-
-- See Somerset Wetlands book - 
-
 # Economic value of European Eel in South West/Somerset
-
-Only hand-held dip nets are permitted for the capture of glass eels or elvers, and fishing is concentrated where the fish are plentiful and easy to catch – principally in estuaries of the Severn and other rivers draining into the Bristol Channel. The fishing season is short, coinciding with the elvers entering rivers on spring tides in April and May
+There is evidence from the Domesday Book (Anon. 1086) of extensive eel fisheries in the Thames, which persisted up until the end of the 19th century [Defra2010]. Only hand-held dip nets are permitted for the capture of glass eels or elvers, and fishing is concentrated where the fish are plentiful and easy to catch – principally in estuaries of the Severn and other rivers draining into the Bristol Channel. The fishing season is short, coinciding with the elvers entering rivers on spring tides in April and May
 
 Eels are caught commercially in a number of locations across England and Wales, although East Anglia is the main centre. Adult eel are caught by a variety of instruments including fyke nets, putcheons and weir traps. A small amount of eel trawling also takes place off the south coast of England and in the Thames Estuary. As with elvers, most adult eel catches are exported; however, the main market for adult eels is mainland Europe. Surprisingly, in the UK domestic market for jellying 90 per cent of the eels used come from farmed imports.
 
@@ -127,10 +130,12 @@ In order to represent the movement of European Eels leaving the Brue Valley rive
 
 ![The resulting line layer 'AxeBrueIDB_viewedrhynes_topo' represnting European Eel miragtion towards the sea ](AxeBrueIDB_viewedrhynes_topo.jpg)
 
-```{r echo = FALSE, results = 'asis'}
+```{r echo=FALSE, warning=TRUE, results= 'asis'}
 points <- read.csv(file = "AxeBrueIDB_viewedrhynes_singlepart_topo.csv", header = TRUE)
 library(knitr)
-kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrueIDB_viewedrhynes_singlepart_topo.csv' attribute table for polyline layer of river system representing migration towards the coast", row.names = TRUE)
+library(kableExtra)
+kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrueIDB_viewedrhynes_singlepart_topo.csv' attribute table for polyline layer of river system representing migration towards the coast", row.names = TRUE) %>%
+   kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
 
 ```
 Known water control structures as managed by the Environment Agency and Somerset Internal Drainage Board were plotted as a point layer in ArcMap. The base layer used during geographic information system analysis is a merge of ['AxeBrueIDB_structures'](https://www.arcgis.com/apps/View/index.html?appid=22497f115856472eb9e58fdba3023191) and structures from the Somerset Internal Drainage Board water level [management plans](http://somersetdrainageboards.gov.uk/environment/wlmps/) (WLMPs) for the North Drain and South Drain. Structure management information showing when structures were open or closed was only available for 24% of the final dataset (N = 103). 
@@ -143,13 +148,14 @@ kable(sources, caption = "Water Control structure data and sources", row.names =
 ```
 
 The locations of water control structures from all three sources were viewed as point layers in ESRI ArcMap (v. 10.6) before being merged using the 'Merge' tool in ArcToolbox. The field map was left unchanged. 
+- toolboxes\system toolboxes\data management tools.tbx\general\merge
 
 ![Alt text](Capture_MergeTool.jpg)
 
 ```{r echo = FALSE, results = 'asis'}
-points <- read.csv(file = "AxeBrue_IDB_merged_140219_Snapped.csv", header = TRUE)
+Snapped <- read.csv(file = "AxeBrue_IDB_merged_140219_Snapped.csv", header = TRUE)
 library(knitr)
-kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_merged_140219_Snapped.csv' table which shows all structures included in the analysis", row.names = TRUE)
+kable(head(Snapped[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_merged_140219_Snapped.csv' table which shows all structures included in the analysis", row.names = TRUE)
 
 ```
 
@@ -161,64 +167,99 @@ Barrier analysis was carried out using a river network tool RivEX (v 10.28) with
 
 
 ```{r echo = FALSE, results = 'asis'}
-points <- read.csv(file = "AxeBrue_IDB_DS_160219.csv", header = TRUE)
+Downstream <- read.csv(file = "AxeBrue_IDB_DS_160219.csv", header = TRUE)
 library(knitr)
-kable(head(points[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_DS_160219' attribute table  showing the additional column for 'AvailDSnet showing the amount of available habitat in a 'downstream' or Westerly direction", row.names = TRUE)
+kable(head(Downstream[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_DS_160219' attribute table  showing the additional column for 'AvailDSnet showing the amount of available habitat in a 'downstream' or Westerly direction", row.names = TRUE)
 
 ```
 A draft version of the map was sent out to project partners and potential users for feedback including the Environment Agency, Sustainable Eel Group, Westcountry Rivers Trust and Somerset Wildlife Trust. 
 
 
 # Results
+The final layers used during analysis included 433 water control structures within the study area. Penstocks were the most frequent structure type included in the barrier analysis (N=103). Outlets and spillways were the least frequent structure type in the study area (N=1). 48 structures did not any of the major structure types from their descriptions.
 
-The resulting habitat maps can be viewed on [ArcGIS online](http://arcg.is/8qavW).
-The final layers used during analysis included 433 water control structures within the study area. Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. 
+```{r echo = FALSE, results = 'asis'}
+Bar <- read.csv(file = "AxeBrue_IDB_merged_140219_Snapped.csv", header = TRUE)
+library(ggplot2)
+g <- ggplot(Bar, aes(structure_)) +
+  geom_bar(fill = "#0073C2FF") +
+  ggtitle("Water control structure frequency in the Brue Valley by type") +
+  theme_classic()
+g + theme(
+axis.text.x = element_text(angle=90, hjust=1),
+axis.title.x = element_blank(), 
+axis.title.y = element_blank())
 
 
+```
+```{r echo = FALSE, results = 'asis'}
+library(dplyr)
+df <- Bar %>%
+  group_by(structure_) %>%
+  summarise(counts = n())
+df
 
-[R plot of structure by type]
 
-[Structure density by catchment]
+```
 
-[maximum and minumum habitat available upstream]
+Most structures included in the analysis can be found in the South Drain catchment (N=25). Structure density is lowest on the River Yeo and Shipham Rhyne.
 
-[maximum and minumum habitat available downstream]
+![Water control structure density by catchment](AxeBrue_RIVEX_190219_StructureDen_.jpg)
 
-[standard deviation]
+```{r echo = FALSE, results = 'asis'}
+Top10DS <- read.csv(file = "AxeBrue_IDB_DS_160219_Ordered.csv", header = TRUE)
+library(knitr)
+kable(head(Top10DS[1:10,]), caption = "The top 10 structures highlighted by the habitat map with the greatest available habitat in a 'downstream' or Westerly direction", row.names = TRUE)
+```
 
-[top 10 strutcures by available habitat in upstream direction]
+```{r echo = FALSE, results = 'asis'}
+Top10US <- read.csv(file = "AxeBrue_IDB_US_170219_Ordered.csv", header = TRUE)
+library(knitr)
+kable(head(Top10US[1:10,]), caption = "The top 10 structures highlighted by the habitat map with the greatest available habitat in a 'upstream' or Easterly direction", row.names = TRUE)
+```
 
-[top 10 strutcures by available habitat in upstream direction]
+When plotted as a histogram, the amount of potential habitat that could be realised upstream or downstream in the Brue Valley was heavily skewed to the left. Several outliers exist for both habitat maps which are represented by the top 10 tables.
 
-These layers do not account for the quality of 'available habitat' upstream/downstream. 'Habitat availability' is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see Buddendorf, 2017; Cote, 2009; Grill2014; Sheer2006). 
+```{r echo = FALSE, results = 'asis'}
+library(ggplot2)
+ggplot(Top10DS, aes(x=AvailDSNet)) + geom_histogram(binwidth = 1000) +
+    scale_y_continuous(limits=c(0,125)) +  
+ geom_vline(aes(xintercept=mean(AvailDSNet, na.rm=T)), 
+               color="blue", linetype="dashed", size=1) +
+  xlab("AvailDSNet(m)")
+```
 
-The layers also fail to account for the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. SWT plans to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
+```{r echo = FALSE, results = 'asis'}
 
-[additional text available on pop-up box]
+ggplot(Top10US, aes(x=AvailUSNet)) + geom_histogram(binwidth = 1000) +
+    scale_y_continuous(limits=c(0,250)) +  
+ geom_vline(aes(xintercept=mean(AvailUSNet, na.rm=T)), 
+               color="yellow", linetype="dashed", size=1) +
+  xlab("AvailUSNet(m)")
+```
+
+The resulting habitat maps can be viewed on [ArcGIS online](http://arcg.is/8qavW). Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. These layers do not account for the quality of 'available habitat' upstream/downstream. 'Habitat availability' is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see Buddendorf, 2017; Cote, 2009; Grill, 2014; Sheer, 2006). The layers also do not include information on the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. Somerset Wildlife Trust would like to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
 
 # Discussion
 
-# Overview of 1) structure assessment surveys and 2) connectivity modelling tools
-# A major issue identified by this map is the lack of individual 'permeability' or 'passability' scores for each barrier. You need to explain why these haven't been included yet in detail, provide explanations for why you haven't used other tools and what your solution is (ZSL eel assessment). Two or three examples of Species specific connectivity software + studies to look at effect of barriers would be good as well. 
-
-#Structure assessment surveys
-
-Individual passability scores for each barrier have not been included due to a lack of data. Local stakeholders do not hold information on the following aspects of water control structures needed for barrier assessments;
-- Management, Management of structures has the greatest effect on fish permeability. [Piper2013] found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels. Management information was only available for a minority of the full structure dataset. 
-- Material
-- Aspect/Gradient
-These features cannot be infered from satellite imagery and require surveys on the ground. There are several protocols available for assessing the permeability of water control structures to fish. 
+River regulation, in the form of damns or levees, restricts both the lateral connectivity between the river and the floodplain and the temporal and spatial variance in connectivity in the main stem of the river (Ward & Stanford, 1995; Kingsford, 2000). A number of GIS tools and software packages exist for assessing the impact of water control structures on river system connectivity. 
 
 # NATIONAL INVENTORY AND ASSESSMENT PROCEDURE—For Identifying Barriers to Aquatic Organism Passage at Road-Stream Crossings
-
 #The Vermont Culvert Aquatic Organism Passage Screening Tool
+
 [Kirn2009] The Vermont Culvert Aquatic Organism Passage Screening Tool consists of three components; the coarse screen, the retrofit potential screen and habitat connectivity potential screen. The aquatic organism passage coarse screen characterizes the expected level of aquatic organism passage based on a set of physical measures of the culvert and adjacent stream during low flow conditions. This first level of screen is useful at the watershed and subwatershed scales to observe regional conditions and to begin to identify structures having the most impact on species of interest. The aquatic organism passage retrofit potential screen identifies the likelihood of improving passage via structural changes at a culvert. The aquatic organism passage habitat connectivity potential screen indicates the amount of habitat that would be re-connected if passage were to be improved at a structure (for example, through installation of a fish pass). This screen is best applied at the subwatershed and local catchment scales to realize the potential gains in habitat due to changes at a specific structure or set of structures.
 
 # SNIFFER
-[What is SNIFFER] [How was it developed?] SNIFFER has been used for minor assessments of natural obstructions across Devon by the Westcountry Rivers Trust to moderate success (pers comms. S. West).
 
+[The WFD111 (2a) Coarse resolution rapid-assessment methodology to assess obstacles to fish migration](https://www.sniffer.org.uk/wfd111-phase-2a-fish-obstacles-manual-pdf) (commonly known as the SNIFFER method) was been developed to help prioritise the removal or mitigation of man-made in-river structures that impede the migration of fish populations. It has been designed to provide a procedure for rapidly assessing at a coarse level the likely passability of obstacles. The methodology is based on published data describing the swimming and leaping abilities of different fish species. The method was tested against real fish population data. 
+
+
+SNIFFER has been used for minor assessments of natural obstructions across Devon by the [Westcountry Rivers Trust](http://wrt.org.uk/sniffing-out-weirs/) to moderate success (pers comms. S. West). 
+
+[WHo else has used SNIFFER?]
 [SNIFFER, 2011][Bull]
 
+[Why didn't you use it?]
 #FishXing
 
 FishXing is a software designed to assist engineers, hydrologists and fish biologists in the evaluation and design of culverts for fish passage [FishXing2006] .The software requires the following inputs;
@@ -233,6 +274,10 @@ FishXing is a software designed to assist engineers, hydrologists and fish biolo
 The software is only designed for culverts which are frequenly installed in the United States under highways are roads that bisect waterways. FishXing is still available from the [United States Forest Service](https://www.fs.fed.us/biology/nsaec/fishxing/) as a Windows .exe build and provides investigators an accurate indicator of a culvert's permeability to fish. This could be useful tool for future work investigating movement within SWT reserves. 
 Once permeability scores have been gathered for water control structures across the riverscape, connectivity models can be used with GIS to develop prioritisation excercises. 
 
+# Barrier Analysis Tool
+
+The Barrier Analysis Tool (BAT) produced by the [University of Southampton](https://www.geodata.soton.ac.uk/geodata/gis/project173) is a tool aiding managers in quantifying the amount of river made available to fish through the removal of barriers would provide valuable information in understanding the impact of barrier removal and in evaluating the prioritisation of restoration actions. The tool is available BAT is designed for the analysis of completely natural systems and is unable to handle 'loops' within the river network. Loops are circular paths created when two polylines share the same to and from nodes (see methodology for explanation of nodes). The Brue system includes several heavily managed rivers which are important to ecological flow not to mention the hundreds of dicthes that all create loops within the river network line layer. Use of BAT was quickly discounted on this basis. 
+ 
 #FIPEX
 
 Where detailed and up-to-date structure data other investigators have produced barrier permeability models for other fish species over large scales. 
@@ -249,6 +294,17 @@ Attempts were made to apply FIPEX to the Brue Valley Eel system however the plug
 [Mahlum2014a] demonstrated that the DCI produced by FIPEX shows biological relevance with regards to understanding fish communities and individual species distribution and abundance, even in the presence of confounding variables such as elevation, stream width, and land cover.
 
 For a more detailed review of connectivity modelling studies for riverine systems please see  [Fullerton2010].
+
+#Structure assessment surveys
+
+A major issue identified by this map is the lack of individual 'permeability' or 'passability' scores for each barrier. You need to explain why these haven't been included yet in detail, provide explanations for why you haven't used other tools and what your solution is (ZSL eel assessment). Two or three examples of Species specific connectivity software + studies to look at effect of barriers would be good as well. 
+
+Individual passability scores for each barrier have not been included due to a lack of data. Local stakeholders do not hold information on the following aspects of water control structures needed for barrier assessments;
+- Management, Management of structures has the greatest effect on fish permeability. Piper (2013) found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels. Management information was only available for a subset of the full structure dataset. 
+- Material
+- Aspect/Gradient
+These features cannot be infered from satellite imagery and require surveys on the ground. There are several protocols available for assessing the permeability of water control structures to fish. 
+
 
 # Recommendations
 
