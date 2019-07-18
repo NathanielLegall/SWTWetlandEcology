@@ -1,0 +1,6 @@
+name: "SWT Eel Habitat Map"
+navbar:
+  title: "SWT Eel Habitat Map"
+  left:
+    - text: "SWT Eel Habitat Map"
+      href: EelHabitatMapMardown.html

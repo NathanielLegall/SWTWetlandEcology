@@ -35,10 +35,20 @@ The European Eel (*Anguilla anguilla*) is a long, narrow fish with a complex lif
 ![**Figure 1: The European Eel life cycle**](Eel-life-cycle.png)
 
 European Eel numbers have declined in Somerset, in line with national trends, but they remain relatively common across the Levels. The local rivers still support strong commercial fisheries.The River Brue runs adjacent to the River Pattett which supports the second largest commercial glass eel fishery in the UK. This is thought to be primarily due to restricted access for eels into and within the catchment - due to flood and water level sluices acting as barriers. The Somerset Wildlife Trust nature reserves Catcott, Westhay Moor and Westhay Heath represent excellent potential habitat to improve eel productivity. However, access in and out is restricted due to blockages and sluices in, out and between the wetlands, and to the waterways to the Brue. 
+<<<<<<< HEAD
+=======
+
+Diadromous species like Atlantic salmon (Salmo salar), European eel (Anguilla anguilla) and migratory Brown trout (Salmo trutta, sea trout) are particularly sensitive to barriers, as juvenile and adult life stages must make extensive migrations across the freshwater environment (e.g., Thorstad et al. 2010). Barriers placed lower in a river network mostly affect diadromous fishes [Cote2009] [Fullerton2010]. Barriers are therefore a potentially important constraint on production and population persistence where access to and from spawning and rearing habitats is limited (Holbrook, Kinnison & Zydlewski 2011; Brown et al. 2013), prevented (Gephard & McMenemy 2004), or delayed (Venditti, Rondorf & Kraut 2000; Anon 2009; Nyqvist et al. 2017a)
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 Diadromous species like Atlantic salmon (*Salmo salar*), European eel (*Anguilla anguilla*) and migratory Brown trout (*Salmo trutta*, sea trout) are particularly sensitive to barriers, as juvenile and adult life stages must make extensive migrations across the freshwater environment (e.g., Thorstad et al., 2010). Barriers placed lower in a river network mostly affect diadromous fishes (Cote, 2009; Fullerton, 2010). Barriers are therefore a potentially important constraint on production and population persistence where access to and from spawning and rearing habitats is limited (Holbrook, Kinnison & Zydlewski 2011; Brown et al. 2013), prevented (Gephard & McMenemy 2004), or delayed (Venditti, Rondorf & Kraut 2000; Anon 2009; Nyqvist et al. 2017)
 
+<<<<<<< HEAD
 ![**Figure 2: Comparison of European Eel data from 19 indicator rivers and the River Severn. Taken from pg. 66 of 'Our Nation's Fisheries', Environment Agency**](Capture_OurNation'sFisheriespg.66.jpg)
+=======
+#Cultural value of European Eel in South West/Somerset?
+There is evidence from the Domesday Book (Anon. 1086) of extensive eel fisheries in the Thames, which persisted up until the end of the 19th century [Defra2010].
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 Otter (*Lutra lutra*) and mink (Mustela spp.) also take eel. Although there is no available information on the likely levels of eel predation by other species, [@Miranda2008] found that otter diet was dominated by eel in the Somerset Levels, (28% of the food biomass annually and 56% in Autumn). Despite this preference, populations of these mammals are much lower than those of fish-eating birds and they are likely to contribute a very small proportion of silver eel mortality [@Defra2010]. 
 
@@ -51,9 +61,14 @@ Fishing for eels in their various life stages can deliver significant economic b
 
 # Legal requirements to protect Eels in Somerset & UK
 There is a legislative requirement to restore free passage, increase habitat  availability, and limit anthropogenic losses at intakes to aid eel recovery and good ecological status; necessitating an improved understanding of underlying processes [Piper2013a]. The Environment Agency has a duty to maintain freshwater and Eel fisheries, both of which play an important role in the wildlife interest of the Brue Valley area. The fisheries are a major part of the wildlife interest especially Eels which are widely distributed. Planned works to improve water level management will have to consider fisheries improvements and any new structures should allow for the free movement of Eels and Elvers [@NA:18]. The EU regulation 1100/2007 – article 2.4 states “The objective of each [EU] Eel Management Plan shall be to reduce anthropogenic mortalities so as to permit with high probability the escapement to the sea of at least 40 % of the silver eel biomass relative to the best estimate of escapement that would have existed if no anthropogenic influences had impacted the stock”. 
+<<<<<<< HEAD
 
 For more informatin on the current conservation assessment of European Eel please visit the [IUCN website](https://www.iucnredlist.org/species/60344/45833138)
 
+=======
+
+For more informatin on the current conservation assessment of European Eel please visit the [IUCN website](https://www.iucnredlist.org/species/60344/45833138)
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 # Threats to European Eel in the River Brue
 
@@ -65,10 +80,23 @@ Another concern is that the accumulation of pollutants – in particular heavy m
 
 There is ample evidence that some fisheries can take so many eels that they significantly reduce the number of potential spawners getting back to sea. The available information also suggests that in extreme cases no potential spawners may be reaching the sea.
 
+<<<<<<< HEAD
 Cormorants have been identified as the major eel predator. The food intake of a cormorant is approximately 400 to 500 grams per day, and the present estimate of the European breeding population is 250,000 to 300,000 pairs. Cormorants have been estimated to consume between 1800 tonnes of eels per year (two per cent of their yearly diet) and 9000 tonnes of eels per year (20 per cent of their yearly diet). 
+=======
+Cormorants have been identified as the major eel predator. The food intake of a cormorant is approximately 400 to 500 grams per day, and the present estimate of the European breeding population is 250,000 to 300,000 pairs. Cormorants have been estimated to consume between 1800 tonnes of eels per year (two per cent of diet throughout the whole year) and 9000 tonnes of eels per year (20 per cent of diet through half of the year). 
+
+The parasite Anguillicola crassus, introduced from the Far East, and other pathogens can have an impact on eel populations. Anguillicola crassus spread rapidly in theEuropean eel population in the early 1980s. This parasite causes swim-bladder dysfunction and can impair the migration of mature eels.
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 The parasite *Anguillicola crassus*, introduced from the Far East, and other pathogens can have an impact on eel populations. Anguillicola crassus spread rapidly in theEuropean eel population in the early 1980s. This parasite causes swim-bladder dysfunction and can impair the migration of mature eels.The decline of the eel in Europe is often related to a reduction in the amount, quality and accessibility of its continental habitat. One way through which habitat has been made more accessible to European Eel aross the Brue and Parrett catchments has been through the instllation of fish passes by the Environment Agency to a number of medium sized (3 - 5 metres long) structures. The importance of these aforementioned factors compared with the impact of exploitation has not been quantified, but it seems likely that they are significant in many European countries.
 
+<<<<<<< HEAD
+=======
+The importance of these factors compared with the impact of exploitation has not been quantified, but it seems likely that they are significant in many European countries. 
+
+# Rationale for project work
+
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 The River Brue catchment is geographicaly adjacent to the River Parrett which supports the second largest commercial glass eel fishery in the UK. The Brue is similar in size to the Parrett catchment, yet it's eel populations and productivity are believed to be much lower than the Parrett. This is thought to be primarily due to restricted access for eels into and within the catchment  - due to flood and water level sluices acting as barriers. Barriers represent one of the largest anthropogenic impacts on the ecological status of rivers [Gido2015], and they also potentially restrict fishes' ability to respond to future environmental changes [Cote2009]. Thus, river management aims to restore the longitudinal connectivity of rivers to allow continuous migration and movement of water, sediments and biotype [Radinger2018]. However, it is often unclear whether the targeted barriers are also those most relevant for fish species, particularly to track future habitat shifts caused by environmental change The Somerset WIldlife Trust reserves at Catcott and Westhay have excellent potential as eel habitat to improve eel productivity. However, access in and out is restriced due to the aforementioned blockages, out and between the wetlands, and to the waterways to the Brue. 
 
 This project will identify what future work can be undertaken to maximise the eel productivity of the Brue Catchment.
@@ -77,7 +105,11 @@ This project will identify what future work can be undertaken to maximise the ee
 
 The stated aims for this element of the funded project are as follows;
 - To identify barriers to escapement and passageway through the lower Brue catchment to the Severn Estuary 
+<<<<<<< HEAD
 - To map a wetland ecological network that takes account of habitat and permeability for eels *this can be moved to the network write-up*
+=======
+- To map a wetland ecological network that takes account of habitat and permeability for eels
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 # Methodology
 
@@ -91,11 +123,18 @@ The Brue Valley is part of the Somerset Levels and Moors (a low-lying region of 
 - Fen
 - Reedbed
 - Wet Woodland
+<<<<<<< HEAD
 The Brue Valley is bisected by the North Drain, River Brue, South Drain and Huntspill River. [Gold Corner pumping station](http://ea-lit.freshwaterlife.org/archive/ealit:950) is at the junction of the South Drain, Cripps River and the Huntspill River. The station is used to prevent flooding in the Brue Valley, maintaining acceptable water levels in the South Drain and to keep the Huntspill River - which acts as a local reservoir - topped up during the Summer. Water is lifted some 3 metres (8.5 feet) from the South Drain to the Huntspill River.
 
 The Somerset Wildlife Trust's Catcott and Westhay nature reserves exist in the centre of the Brue Valley. Catcott Nature Reserve (Centre grid reference = ST404411) comprises a series of low-lying fields, carr and former peat workings with numerous ditches that forms part of the extensive grazing marsh and high level wet ditch system.  Near the centre is the original reserve known as Catcott Heath, a mosaic of widely differing habitats – most importantly NVC S24 fen vegetation, with milk parsley (*Puecedanum palustre*) and bog myrtle (*Myrica gale*), mixed broadleaf woodland, peat ponds and ditches. To the west is a partially worked peat digging, known as Great Fen  comprising reed fen where the peat has been removed and restored fen where sufficient peat remains. 1,000,000 glass eels were introduced to this compartment during 2015. Separate and to the south lies a small restored former peat working, known as Catcott Fen, with a wet reed bed community. Westhay Moor National Nature Reserve and Westhay Moor Nature Reserve comprise areas of wetland mosaics including tall fen vegetation, marshy grassland, willow scrub, alder carr, small ponds, open water channels and the remnants of acid raised mire form previously used for peat extraction in the heart of the peat moors on the Somerset Levels. Catcott and Westhay Nature Reserves represent areas of optimal habitat for European Eel of different life stages (West, 2019) so were used as the targets during GIS analysis. 
 
 A bounding box was set encompassing the majority of the legacy Brue Valley Living Landscape project area.
+=======
+The Brue Valley is bisected by the North Drain, River Brue, South Drain and Huntspill River. [Gold Corner pumping station](http://ea-lit.freshwaterlife.org/archive/ealit:950) is at the junction of the South Drain, Cripps River and the Huntspill River. The station is used to prevent flooding in the Brue Valley, maintain acceptable water levels in the South Drain and to keep the Huntspill River -which acts as a local reservoir - topped up during the summer. Water is lifted some 3 metres (8.5 feet) from the South Drain to the Huntspill River.
+
+[How were the Catcott and Westhay reserves completed?]
+see Catcott CMP 
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 ![The bounding box for barrier analysis surrounding the Brue Valley Living Landscape with the Somerset Wildlife Trust Avalon Marshes reserves highlighted in white. Extents of bounding box - Top: 157637.238462m Left: 324758.957958m, Right: 354758.957958m, Bottom: 127637.238462m) Credit: Source: Esri](WetHabitats_BoundingBoxLQ.jpg)
 
@@ -114,11 +153,15 @@ This was merged with the IDB viewed rhynes line layer using the 'Merge' tool to 
 The resulting error log file 'intersections.txt' was used to identify and rectify false intersections within the river network. The 'Topology' tool within ArcMap was used to highlight and fix gaps within the river network. 
 - see toolboxes\system toolboxes\data management tools.tbx\topology\add rule to topology
 
+<<<<<<< HEAD
 !['Must not have dangles' and 'Must not overlap' were set as the topology rules. 1209 topology errors were identified - each error was highlighted as a red square in a new layer. Topology errors were manually resolved using the 'Error Inspector' and 'Topology' toolbar with reference to satellite imagery.](AxeBrue_Topology_errors.jpg)
 
 A screenshot showing the workflow for resolving a layer error highlighted by the 'Must not have dangles' rule is shown below.
 
 ![Alt text](AxeBrue_Topology_errors_East_of_Bridgewater_Bay.jpg)
+=======
+Brief description of 'how the Somerset Moors work'.
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 In GIS, nodes represent the beginning and end of an edge. The nodes are an important component of a network representing a river system because they denote the locations where rivers, streams and ditches connect to each other. The 'From node' and 'To node' were only present for the IDB viewed rhynes data ('STARTNODE' and 'ENDNODE'). New nodes were created using RivEX following the 'Building nodes for the first time' [protocol](http://www.rivex.co.uk/Online-Manual/Buildingnodesforthefirsttime.html). The following [attributes](http://www.rivex.co.uk/Online-Manual/Attributerivernetwork.html) were added to the river network;
 - Strahler order
@@ -130,6 +173,7 @@ In order to represent the movement of European Eels leaving the Brue Valley rive
 
 ![The resulting line layer 'AxeBrueIDB_viewedrhynes_topo' represnting European Eel miragtion towards the sea ](AxeBrueIDB_viewedrhynes_topo.jpg)
 
+<<<<<<< HEAD
 ```{r echo=FALSE, warning=TRUE, results= 'asis'}
 points <- read.csv(file = "AxeBrueIDB_viewedrhynes_singlepart_topo.csv", header = TRUE)
 library(knitr)
@@ -173,6 +217,11 @@ kable(head(Downstream[1:5,]), caption = "The first five rows of 'AxeBrue_IDB_DS_
 
 ```
 A draft version of the map was sent out to project partners and potential users for feedback including the Environment Agency, Sustainable Eel Group, Westcountry Rivers Trust and Somerset Wildlife Trust. 
+=======
+The base layer is a merge of 'AxeBrueIDB_structures' and structures from the Internal Drainage Board management plans for the North Drain and South Drain.
+https://www.arcgis.com/apps/View/index.html?appid=22497f115856472eb9e58fdba3023191<u5:p></u5:p>
+http://somersetdrainageboards.gov.uk/environment/wlmps/[IDB2010] [Brue2010]
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 
 # Results
@@ -200,11 +249,21 @@ df <- Bar %>%
 df
 
 
+<<<<<<< HEAD
 ```
 
 Most structures included in the analysis can be found in the South Drain catchment (N=25). Structure density is lowest on the River Yeo and Shipham Rhyne.
 
 ![Water control structure density by catchment](AxeBrue_RIVEX_190219_StructureDen_.jpg)
+=======
+The resulting habitat maps can be viewed on [ArcGIS online](http://arcg.is/8qavW).
+The final layer used during analysis included 433 water control structures within the study area. 
+Stream and downstream habitat availability of water control structures managed by the Internal Drainage Board and Environment Agency. 
+
+Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. 
+
+These layers do not account for the quality of 'available habitat' upstream/downstream. Habitat availability is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see [Buddendorf2017a][Cote2009][Grill2014][Sheer2006]). At this point the layers also fail to account for the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. SWT plans to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 ```{r echo = FALSE, results = 'asis'}
 Top10DS <- read.csv(file = "AxeBrue_IDB_DS_160219_Ordered.csv", header = TRUE)
@@ -243,6 +302,7 @@ ggplot(Top10US, aes(x=AvailUSNet)) + geom_histogram(binwidth = 1000) +
 The resulting habitat maps can be viewed on [ArcGIS online](http://arcg.is/8qavW). Darker points show structures that have the potential for releasing the most habitat downstream or upstream if modified for fish passability. These layers do not account for the quality of 'available habitat' upstream/downstream. 'Habitat availability' is based on the assumption that all underlying habitat is suitable for European Eel. In the absence of detailed biological information or appropriate models of habitat quality this is a common approach (see Buddendorf, 2017; Cote, 2009; Grill, 2014; Sheer, 2006). The layers also do not include information on the management of individual structures. For example, a structure closed during Winter Penn is likely to restrict access to all habitat downstream for eels moving through the system. Somerset Wildlife Trust would like to include information on the potential financial cost of improving structure permeability in future iterations of the eel passability scores. 
 
 # Discussion
+<<<<<<< HEAD
 
 Culverts, tilting Weirs and Penstocks are the most frequently found types of water control structures in the study area. Culverts create problems with blockage of eel passage and interrupting gravel movement (EA, 2010). Culverts are effectively large pipes used to connect bodies of water together that are seperated by paths or roads. Depsite their abundance in the Brue Valley area, due to the longitudinal profile of European Eel culverts are not thought to present a major abstacle. However, flap valves can be fitted to one culvert end to prevent the back flow of water when pressure is greatest on the exit side of the valve. Unless set open these flap valves should be judged as detrimental to the passage of European Eel. 
 
@@ -337,6 +397,30 @@ The Barrier Analysis Tool (BAT) produced by the [University of Southampton](http
  
 #FIPEX
 
+=======
+
+# A major issue identified by this map is the lack of individual 'permeability' or 'passability' scores for each barrier. You need to explain why these haven't been included yet in great detail, provide explanations for why you haven't used other tools and what your solution is (ZSL eel assessment). Two or three examples of Species specific connectivity software + studies to look at effect of barriers would be good as well. 
+
+Individual passability scores for each barrier have not been included due to a lack of data. Local stakeholders do not hold information on the following aspects of their water control structures;
+- Management, Management of structures has the greatest effect on fish permeability. [Piper2013] found that management regimes of sluice gate position, abstraction rate and weir spill strongly affected probability of entrainment at intakes and the route choice of eels.
+- Material
+- Aspect/Gradient
+These features cannot be infered from satellite imagery and require surveys on the ground. There are several protocols available for assessing the permeability of water control structures to fish. 
+
+# NATIONAL INVENTORY AND ASSESSMENT PROCEDURE—For Identifying Barriers to Aquatic Organism Passage at Road-Stream Crossings
+
+#The Vermont Culvert Aquatic Organism Passage Screening Tool
+[Kirn2009] The Vermont Culvert Aquatic Organism Passage Screening Tool consists of three components; the coarse screen, the retrofit potential screen and habitat connectivity potential screen. The aquatic organism passage coarse screen characterizes the expected level of aquatic organism passage based on a set of physical measures of the culvert and adjacent stream during low flow conditions. This first level of screen is useful at the watershed and subwatershed scales to observe regional conditions and to begin to identify structures having the most impact on species of interest. The aquatic organism passage retrofit potential screen identifies the likelihood of improving passage via structural changes at a culvert. The aquatic organism passage habitat connectivity potential screen indicates the amount of habitat that would be re-connected if passage were to be improved at a structure (for example, through installation of a fish pass). This screen is best applied at the subwatershed and local catchment scales to realize the potential gains in habitat due to changes at a specific structure or set of structures.
+
+
+# SNIFFER
+[What is SNIFFER] [How was it developed?] SNIFFER has been used for minor assessments of natural obstructions across Devon by the Westcountry Rivers Trust to moderate success (pers comms. S. West).
+
+[SNIFFER, 2011][Bull]
+
+#FIPEX
+
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 Where detailed and up-to-date structure data other investigators have produced barrier permeability models for other fish species over large scales. 
 The Scottish barrier prioritisation model was developed using the Fish Passage Extension (FIPEX) for ArcGIS. FIPEX is able to produce a single comporable metric of a structure's impact on fish passability known as the Dendretic Connectivity Index (or DCI) which makes it useful for providing the information necessary for local and national prioritisation of management resources. 
 
@@ -345,6 +429,7 @@ Barrier prioritisation should be sensitive to habitat weighting since not accoun
 ![Alt text](Capture_ScotlandBarrierMap.jpg)
 
 The 'passability' of barriers was informed by the [Scottish Obstacles to Fish Migration data set](https://www.sepa.org.uk/environment/environmental-data/). These data were initially collated in the 1980s by staff from Marine Scotland Science using information provided by District Salmon Fishery Boards, Fisheries Trusts and local angling clubs. Additions were made to the map since the 80s and a major update to the fish barrier dataset was produced in 2008 which is now managaed by the Scottish Environment Protection Agency. [Buddendorf2018] developed their own metric for barrier passability known as DCI~SCOT~ which better accounted for the amount of habitat available upstream as part of the barrier prioritisation process [@Buddendorf2018].
+<<<<<<< HEAD
 
 Attempts were made to apply FIPEX to the Brue Valley Eel system however the plug-in is no longer supported and doesn't function with ArcMap 10.6 [what year did this end? what version of ArcMap DOES it work with?]. In order to make use of the underlying R code we also contacted the authors of the Scottish barrier map. We were unable to obtain the underlying R code for calculating DCI through data mining the original plug-in or contacting FIPEX's authors [refer to FIPEX manual- why doesn't the FIPEX manual come up in the mendeley search?]
 
@@ -353,7 +438,26 @@ Attempts were made to apply FIPEX to the Brue Valley Eel system however the plug
 For a more detailed review of connectivity modelling studies for riverine systems please see  [Fullerton2010].
 
 
+=======
 
+Attempts were made to apply FIPEX to the Brue Valley Eel system however the plug-is no longer supported and doesn't work with ArcMap 10.6 [what year did this end? what version of ArcMap DOES it work with?]. In order to make use of the underlying R code we also contacted the authors of the Scottish barrier map. We were unable to obtain the underlying R code for calculating DCI through data mining the original plug-in or contacting the FIPEX authors [refer to FIPEX manual- why doesn't the FIPEX manual come up in the mendeley search?]
+
+[Mahlum2014a] demonstrated that the DCI has biological relevance with regards to understanding fish communities and individual species distribution and abundance, even in the presence of confounding variables such as elevation, stream width, and land cover.
+
+#FishXing
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
+
+FishXing is a software designed to assist engineers, hydrologists and fish biologists in the evaluation and design of culverts for fish passage [FishXing2006] .The software requires the following inputs;
+- Culvert Shape 
+- Dimensions (diameter, rise, span) 
+- Material and Corrugation 
+- Installation (At Grade or Embedded) 
+- Culvert Length 
+- Culvert Slope (Can be automaticlally calculated if inlet and outlet bottom elevations are known) 
+- Culvert Outlet Bottom Elevation 
+- Entrance Loss (a constant used to determine the amount of energy loss as the water enters the culvert inlet.)
+The software is only designed for culverts which are frequenly installed in the United States under highways are roads that bisect waterways. FishXing is still available from the [United States Forest Service](https://www.fs.fed.us/biology/nsaec/fishxing/) as a Windows .exe build and provides investigators an accurate indicator of a culvert's permeability to fish. This could be useful tool for future work investigating movement within SWT reserves. 
+For a more detailed review of connectivity modelling studies for riverine systems please see  [Fullerton2010].
 
 # Recommendations
 
@@ -361,7 +465,10 @@ For a more detailed review of connectivity modelling studies for riverine system
 - Tables with top 3 passes for upstream, downstreamm and both directional movement
 - Future work to develop map further - add financial implications to decision making
 - Collect data from Environment Agency and IDB groundsmen on individual structure management
+<<<<<<< HEAD
 
 # References
+=======
+>>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 Environment Agency Eel Manual, Eel and Elver Passes: Manual for the Design and Implementation of Passage Solutioins, and Monitoring Eel and Elver Populations Available from: https://www.gov.uk/government/publications/eel-and-elver-passes-design-and-build
