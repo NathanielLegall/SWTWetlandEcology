@@ -1,14 +1,23 @@
 ---
-title: "R Notebook for Eel Habitat Map"
-author: "Nathaniel Legall"
 output:
-  html_document:
-    df_print: paged
+  pdf_document: default
+  word_document: default
+  html_document: default
 ---
 
-**Verion: 1.0**
+title: "R Notebook for Eel Habitat Map"
+author: "Nathaniel Legall"
+output: html_document
+    
+---
 
-**Date: **
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+
+**Verion: 1.1**
+
+**Date: 24/07/19 **
 
 **Authored by: Nathaniel Legall**
 
@@ -39,11 +48,7 @@ European Eel numbers have declined in Somerset, in line with national trends, bu
 =======
 
 Diadromous species like Atlantic salmon (Salmo salar), European eel (Anguilla anguilla) and migratory Brown trout (Salmo trutta, sea trout) are particularly sensitive to barriers, as juvenile and adult life stages must make extensive migrations across the freshwater environment (e.g., Thorstad et al. 2010). Barriers placed lower in a river network mostly affect diadromous fishes [Cote2009] [Fullerton2010]. Barriers are therefore a potentially important constraint on production and population persistence where access to and from spawning and rearing habitats is limited (Holbrook, Kinnison & Zydlewski 2011; Brown et al. 2013), prevented (Gephard & McMenemy 2004), or delayed (Venditti, Rondorf & Kraut 2000; Anon 2009; Nyqvist et al. 2017a)
->>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
-Diadromous species like Atlantic salmon (*Salmo salar*), European eel (*Anguilla anguilla*) and migratory Brown trout (*Salmo trutta*, sea trout) are particularly sensitive to barriers, as juvenile and adult life stages must make extensive migrations across the freshwater environment (e.g., Thorstad et al., 2010). Barriers placed lower in a river network mostly affect diadromous fishes (Cote, 2009; Fullerton, 2010). Barriers are therefore a potentially important constraint on production and population persistence where access to and from spawning and rearing habitats is limited (Holbrook, Kinnison & Zydlewski 2011; Brown et al. 2013), prevented (Gephard & McMenemy 2004), or delayed (Venditti, Rondorf & Kraut 2000; Anon 2009; Nyqvist et al. 2017)
-
-<<<<<<< HEAD
 ![**Figure 2: Comparison of European Eel data from 19 indicator rivers and the River Severn. Taken from pg. 66 of 'Our Nation's Fisheries', Environment Agency**](Capture_OurNation'sFisheriespg.66.jpg)
 =======
 #Cultural value of European Eel in South West/Somerset?
@@ -113,7 +118,7 @@ The stated aims for this element of the funded project are as follows;
 
 # Methodology
 
-#Study Area
+## Study Area
 
 The Brue Valley is part of the Somerset Levels and Moors (a low-lying region of north and central Somerset bisected by limestone ridges and hills) and covers almost 12,500 hectares of the floodplain of the River Brue between Glastonbury in the East and the M5 in the West. The Somerset Levels and Moors is a landscape of highly artificial rivers and intense human management of water and it is this intense management that determines habitat type and land use in the Brue Valley. Habitats present in the Brue Valley include;
 - Coastal and Floodplain Grazing Marsh
@@ -126,7 +131,7 @@ The Brue Valley is part of the Somerset Levels and Moors (a low-lying region of 
 <<<<<<< HEAD
 The Brue Valley is bisected by the North Drain, River Brue, South Drain and Huntspill River. [Gold Corner pumping station](http://ea-lit.freshwaterlife.org/archive/ealit:950) is at the junction of the South Drain, Cripps River and the Huntspill River. The station is used to prevent flooding in the Brue Valley, maintaining acceptable water levels in the South Drain and to keep the Huntspill River - which acts as a local reservoir - topped up during the Summer. Water is lifted some 3 metres (8.5 feet) from the South Drain to the Huntspill River.
 
-The Somerset Wildlife Trust's Catcott and Westhay nature reserves exist in the centre of the Brue Valley. Catcott Nature Reserve (Centre grid reference = ST404411) comprises a series of low-lying fields, carr and former peat workings with numerous ditches that forms part of the extensive grazing marsh and high level wet ditch system.  Near the centre is the original reserve known as Catcott Heath, a mosaic of widely differing habitats – most importantly NVC S24 fen vegetation, with milk parsley (*Puecedanum palustre*) and bog myrtle (*Myrica gale*), mixed broadleaf woodland, peat ponds and ditches. To the west is a partially worked peat digging, known as Great Fen  comprising reed fen where the peat has been removed and restored fen where sufficient peat remains. 1,000,000 glass eels were introduced to this compartment during 2015. Separate and to the south lies a small restored former peat working, known as Catcott Fen, with a wet reed bed community. Westhay Moor National Nature Reserve and Westhay Moor Nature Reserve comprise areas of wetland mosaics including tall fen vegetation, marshy grassland, willow scrub, alder carr, small ponds, open water channels and the remnants of acid raised mire form previously used for peat extraction in the heart of the peat moors on the Somerset Levels. Catcott and Westhay Nature Reserves represent areas of optimal habitat for European Eel of different life stages (West, 2019) so were used as the targets during GIS analysis. 
+The Somerset Wildlife Trust's Catcott and Westhay nature reserves exist in the centre of the Brue Valley. Catcott Nature Reserve (Centre grid reference = ST404411) comprises a series of low-lying fields, carr and former peat workings with numerous ditches that forms part of the extensive grazing marsh and high level wet ditch system.  Near the centre is the original reserve known as Catcott Heath, a mosaic of widely differing habitats – most importantly NVC S24 fen vegetation, with milk parsley (*Puecedanum palustre*) and bog myrtle (*Myrica gale*), mixed broadleaf woodland, peat ponds and ditches. To the west is a partially worked peat digging, known as Great Fen  comprising reed fen where the peat has been removed and restored fen where sufficient peat remains. 1,000,000 glass eels were introduced to this compartment during 2015. Separate and to the south lies a small restored former peat working, known as Catcott Fen, with a wet reed bed community. Westhay Moor National Nature Reserve and Westhay Moor Nature Reserve comprise areas of wetland mosaics including tall fen vegetation, marshy grassland, willow scrub, alder carr, small ponds, open water channels and the remnants of acid raised mire form previously used for peat extraction in the heart of the peat moors on the Somerset Levels. Catcott and Westhay Nature Reserves represent areas of optimal habitat for European Eel of different life stages (West, 2019) so were used as the targets during GIS (Geographic Information System) analysis. 
 
 A bounding box was set encompassing the majority of the legacy Brue Valley Living Landscape project area.
 =======
@@ -138,7 +143,7 @@ see Catcott CMP
 
 ![The bounding box for barrier analysis surrounding the Brue Valley Living Landscape with the Somerset Wildlife Trust Avalon Marshes reserves highlighted in white. Extents of bounding box - Top: 157637.238462m Left: 324758.957958m, Right: 354758.957958m, Bottom: 127637.238462m) Credit: Source: Esri](WetHabitats_BoundingBoxLQ.jpg)
 
-#Data preparation
+## Data preparation
 
 The 'Open Rivers' layer on the Somerset Wildlife Trust S drive was used to form the majority of the underlying river network. The line layer shows most of the EA 'main rivers' and streams throughout Somerset including the River Brue, Huntspill, North Drain and South Drain. 
 - see S:\GIS\Layer Library\Environmental or contact the Somerset Environmental Records Centre
@@ -163,7 +168,7 @@ A screenshot showing the workflow for resolving a layer error highlighted by the
 Brief description of 'how the Somerset Moors work'.
 >>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
-In GIS, nodes represent the beginning and end of an edge. The nodes are an important component of a network representing a river system because they denote the locations where rivers, streams and ditches connect to each other. The 'From node' and 'To node' were only present for the IDB viewed rhynes data ('STARTNODE' and 'ENDNODE'). New nodes were created using RivEX following the 'Building nodes for the first time' [protocol](http://www.rivex.co.uk/Online-Manual/Buildingnodesforthefirsttime.html). The following [attributes](http://www.rivex.co.uk/Online-Manual/Attributerivernetwork.html) were added to the river network;
+In ArcGIS, nodes represent the beginning and end of an edge. The nodes are an important component of a network representing a river system because they denote the locations where rivers, streams and ditches connect to each other. The 'From node' and 'To node' were only present for the IDB viewed rhynes data ('STARTNODE' and 'ENDNODE'). New nodes were created using RivEX following the 'Building nodes for the first time' [protocol](http://www.rivex.co.uk/Online-Manual/Buildingnodesforthefirsttime.html). The following [attributes](http://www.rivex.co.uk/Online-Manual/Attributerivernetwork.html) were added to the river network;
 - Strahler order
 - Distance to mouth
 - Upstream Accumulated Length
@@ -241,16 +246,7 @@ axis.title.y = element_blank())
 
 
 ```
-```{r echo = FALSE, results = 'asis'}
-library(dplyr)
-df <- Bar %>%
-  group_by(structure_) %>%
-  summarise(counts = n())
-df
 
-
-<<<<<<< HEAD
-```
 
 Most structures included in the analysis can be found in the South Drain catchment (N=25). Structure density is lowest on the River Yeo and Shipham Rhyne.
 
@@ -472,3 +468,41 @@ For a more detailed review of connectivity modelling studies for riverine system
 >>>>>>> 285b466eaaa74fa1a331da031f9b3b8ecc8d101f
 
 Environment Agency Eel Manual, Eel and Elver Passes: Manual for the Design and Implementation of Passage Solutioins, and Monitoring Eel and Elver Populations Available from: https://www.gov.uk/government/publications/eel-and-elver-passes-design-and-build
+
+
+# Appendices
+
+## Appendix 1 - SWT GIS Officer feedback on Draft 1.0 - 18.07.19
+
+Hi Nathaniel,
+
+Thanks for this, it’s looking really good.
+
+Data preparation
+
+You say, Must not have gaps’ and ‘Must not overlap’ were set as the topology rules.  I’m Not sure what you mean here, ‘Must not have gaps’ isn’t a topology rule that can be applied to lines?
+
+Is it worth briefly describing what RivEX is?
+
+Is it by design that the most of the ditches are not included in your network?
+
+Have you got permission from the IDB to publish the Rhyne and Structures data on AGOL?
+
+When I see these symbols on the map, the top and the bottom one look very similar I would suggest making each one a distinct colour, e.g, pink, red, blue etc and possibly make them a little larger.
+
+ 
+
+Is there a way to show some examples of the potential habitat being opened up by specific control structures visually on a map, e.g., if control structure A is opened then all of these parts of the network become available?  Maybe using Service Areas in Network Analyst would work?  I would also be good to see further ways that this data could be used as a practitioners tool.   It would be awesome to have an interactive tool whereby you can open and close control structures and see the results on a map, this maybe a bit pie-in-sky though at the moment.
+
+If think some of the attributes in the data tables need explaining, e.g., all the US_Accum2 attributes?
+
+Thanks,
+Steve
+
+Appendix 2 - Structure Surveys August 2019
+
+A project for the Structure surveys was created within the EpiCollect5 data collection service to allow for data collection in the field using the mobile application. Questions followed the ZSL 'A Field Guide for Assessing the Passability of Man-Made River Structures by European Eels'.
+https://five.epicollect.net/project/brue-valley-structure-surveys
+
+The fourth question 'Structure Name' should match the names (field = )
+http://arcg.is/1yCvHC
